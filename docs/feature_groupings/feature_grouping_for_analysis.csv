@@ -1,0 +1,196 @@
+Feature_ID,Main_domain,Finer_grouping
+GB303,clause,valency
+GB149,verbal domain,argument marking (core)
+GB070,nominal domain,argument marking (core)
+GB071,pronoun,argument marking (core)
+GB408,nominal domain,argument marking (core)
+GB409,nominal domain,argument marking (core)
+GB410,nominal domain,argument marking (core)
+GB074,nominal domain,argument marking (non-core)
+GB075,nominal domain,argument marking (non-core)
+GB080,verbal domain,argument marking (non-core)
+GB081,verbal domain,VP (other)
+GB079,verbal domain,argument marking (non-core)
+GB092,verbal domain,argument marking (core)
+GB093,verbal domain,argument marking (core)
+GB089,verbal domain,argument marking (core)
+GB090,verbal domain,argument marking (core)
+GB091,verbal domain,argument marking (core)
+GB094,verbal domain,argument marking (core)
+GB098,verbal domain,argument marking (core)
+GB095,verbal domain,argument marking (core)
+GB096,verbal domain,argument marking (core)
+GB105,clause,argument marking (non-core)
+GB072,nominal domain,argument marking (non-core)
+GB073,pronoun,argument marking (non-core)
+GB108,verbal domain,argument marking (non-core)
+GB027,clause,argument marking (non-core)
+GB103,verbal domain,argument marking (non-core)
+GB104,verbal domain,argument marking (non-core)
+GB026,nominal domain,order in NP
+GB193,nominal domain,order in NP
+GB069,nominal domain,non-verbal predication
+GB065,nominal domain,order in NP
+GB059,nominal domain,class
+GB430,nominal domain,order in NP
+GB431,nominal domain,order in NP
+GB432,nominal domain,order in NP
+GB433,nominal domain,order in NP
+GB313,pronoun,deixis
+GB058,nominal domain,class
+GB155,verbal domain,valency
+GB156,clause,valency
+GB028,pronoun,number
+GB301,clause,number
+GB265,clause,non-verbal predication
+GB270,clause,clause order
+GB273,clause,non-verbal predication
+GB275,clause,non-verbal predication
+GB276,clause,non-verbal predication
+GB266,clause,non-verbal predication
+GB146,nominal domain,TAME
+GB020,nominal domain,deixis
+GB022,nominal domain,deixis
+GB021,nominal domain,deixis
+GB023,nominal domain,deixis
+GB035,nominal domain,deixis
+GB037,nominal domain,deixis
+GB036,nominal domain,deixis
+GB151,verbal domain,argument marking (core)
+GB025,nominal domain,order in NP
+GB038,nominal domain,deixis
+GB159,nominal domain,number
+GB160,nominal domain,quantification
+GB158,verbal domain,VP (other)
+GB048,nominal domain,VP (other)
+GB049,nominal domain,VP (other)
+GB047,nominal domain,VP (other)
+GB321,nominal domain,class
+GB051,nominal domain,class
+GB052,nominal domain,class
+GB054,nominal domain,class
+GB192,nominal domain,class
+GB196,pronoun,class
+GB197,pronoun,class
+GB053,nominal domain,class
+GB170,nominal domain,class
+GB171,nominal domain,class
+GB172,nominal domain,class
+GB314,nominal domain,class
+GB315,nominal domain,class
+GB296,nominal domain,non-verbal predication
+GB167,pronoun,number
+GB257,clause,VP (other)
+GB260,clause,clause order
+GB262,clause,clause order
+GB263,clause,clause order
+GB264,clause,clause order
+GB285,clause,VP (other)
+GB286,clause,VP (other)
+GB291,clause,VP (other)
+GB324,clause,non-verbal predication
+GB326,clause,clause order
+GB325,nominal domain,quantification
+GB116,verbal domain,argument marking (non-core)
+GB177,verbal domain,argument marking (core)
+GB057,nominal domain,quantification
+GB188,nominal domain,non-verbal predication
+GB187,nominal domain,non-verbal predication
+GB046,nominal domain,number
+GB316,nominal domain,number
+GB317,nominal domain,number
+GB318,nominal domain,number
+GB319,nominal domain,number
+GB320,nominal domain,number
+GB039,nominal domain,number
+GB165,nominal domain,number
+GB166,nominal domain,number
+GB041,nominal domain,number
+GB043,nominal domain,number
+GB109,verbal domain,argument marking (core)
+GB184,nominal domain,number
+GB185,nominal domain,number
+GB186,nominal domain,number
+GB044,nominal domain,number
+GB042,nominal domain,number
+GB302,clause,valency
+GB304,clause,valency
+GB099,verbal domain,argument marking (core)
+GB031,pronoun,number
+GB030,pronoun,class
+GB400,verbal domain,TAME
+GB415,pronoun,number
+GB132,clause,clause order
+GB118,verbal domain,verb complex
+GB131,clause,clause order
+GB136,clause,clause order
+GB130,clause,clause order
+GB522,clause,argument marking (core)
+GB133,clause,clause order
+GB150,clause,verb complex
+GB122,verbal domain,verb complex
+GB123,verbal domain,verb complex
+GB140,clause,non-verbal predication
+GB256,clause,non-verbal predication
+GB253,clause,non-verbal predication
+GB254,clause,non-verbal predication
+GB252,clause,non-verbal predication
+GB135,clause,clause order
+GB134,clause,clause order
+GB068,nominal domain,non-verbal predication
+GB117,verbal domain,non-verbal predication
+GB333,numeral,quantification
+GB334,numeral,quantification
+GB335,numeral,quantification
+GB336,numeral,quantification
+GB024,nominal domain,order in NP
+GB203,nominal domain,order in NP
+GB204,nominal domain,quantification
+GB198,nominal domain,class
+GB115,verbal domain,valency
+GB114,verbal domain,valency
+GB327,nominal domain,clause order
+GB328,clause,clause order
+GB329,clause,clause order
+GB330,clause,clause order
+GB331,clause,clause order
+GB421,clause,clause order
+GB422,clause,clause order
+GB086,verbal domain,TAME
+GB120,verbal domain,TAME
+GB520,verbal domain,TAME
+GB322,verbal domain,TAME
+GB323,verbal domain,TAME
+GB139,clause,TAME
+GB297,clause,clause order
+GB119,verbal domain,TAME
+GB312,verbal domain,TAME
+GB519,verbal domain,TAME
+GB138,clause,clause order
+GB107,verbal domain,VP (other)
+GB137,clause,clause order
+GB298,clause,VP (other)
+GB299,clause,VP (other)
+GB152,clause,TAME
+GB084,verbal domain,TAME
+GB309,verbal domain,TAME
+GB521,verbal domain,TAME
+GB082,verbal domain,TAME
+GB083,verbal domain,TAME
+GB121,verbal domain,TAME
+GB110,verbal domain,TAME
+GB111,verbal domain,VP (other)
+GB148,verbal domain,valency
+GB113,verbal domain,valency
+GB147,verbal domain,valency
+GB305,pronoun,valency
+GB306,pronoun,valency
+GB124,verbal domain,valency
+GB401,verbal domain,valency
+GB129,verbal domain,verb complex
+GB127,verbal domain,non-verbal predication
+GB126,verbal domain,non-verbal predication
+GB250,nominal domain,non-verbal predication
+GB402,verbal domain,VP (other)
+GB403,verbal domain,VP (other)
+GB300,verbal domain,VP (other)
