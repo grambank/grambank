@@ -1,0 +1,6 @@
+[submodule "raw/grambank.wiki"]
+	path = raw/grambank.wiki
+	url = https://github.com/grambank/grambank.wiki
+[submodule "raw/Grambank"]
+	path = raw/Grambank
+	url = https://github.com/glottobank/Grambank
