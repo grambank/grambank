@@ -1,0 +1,372 @@
+{
+    "creators": [
+        {
+            "name": "Hedvig Skirg\u00e5rd"
+        },
+        {
+            "name": "Hannah J. Haynie"
+        },
+        {
+            "name": "Harald Hammarstr\u00f6m"
+        },
+        {
+            "name": "Dami\u00e1n E. Blasi"
+        },
+        {
+            "name": "Jeremy Collins"
+        },
+        {
+            "name": "Jay Latarche"
+        },
+        {
+            "name": "Jakob Lesage"
+        },
+        {
+            "name": "Tobias Weber"
+        },
+        {
+            "name": "Alena Witzlack-Makarevich"
+        },
+        {
+            "name": "Michael Dunn"
+        },
+        {
+            "name": "Ger Reesink"
+        },
+        {
+            "name": "Ruth Singer"
+        },
+        {
+            "name": "Claire Bowern"
+        },
+        {
+            "name": "Patience Epps"
+        },
+        {
+            "name": "Jane Hill"
+        },
+        {
+            "name": "Outi Vesakoski"
+        },
+        {
+            "name": "Noor Karolin Abbas"
+        },
+        {
+            "name": "Sunny Ananth"
+        },
+        {
+            "name": "Daniel Auer"
+        },
+        {
+            "name": "Nancy A. Bakker"
+        },
+        {
+            "name": "Giulia Barbos"
+        },
+        {
+            "name": "Anina Bolls"
+        },
+        {
+            "name": "Robert D. Borges"
+        },
+        {
+            "name": "Mitchell Browen"
+        },
+        {
+            "name": "Lennart Chevallier"
+        },
+        {
+            "name": "Swintha Danielsen"
+        },
+        {
+            "name": "Sino\u00ebl Dohlen"
+        },
+        {
+            "name": "Luise Dorenbusch"
+        },
+        {
+            "name": "Ella Dorn"
+        },
+        {
+            "name": "Marie Duhamel"
+        },
+        {
+            "name": "Farah El Haj Ali"
+        },
+        {
+            "name": "John Elliott"
+        },
+        {
+            "name": "Giada Falcone"
+        },
+        {
+            "name": "Anna-Maria Fehn"
+        },
+        {
+            "name": "Jana Fischer"
+        },
+        {
+            "name": "Yustinus Ghanggo Ate"
+        },
+        {
+            "name": "Hannah Gibson"
+        },
+        {
+            "name": "Hans-Philipp G\u00f6bel"
+        },
+        {
+            "name": "Jemima A. Goodall"
+        },
+        {
+            "name": "Victoria Gruner"
+        },
+        {
+            "name": "Andrew Harvey"
+        },
+        {
+            "name": "Rebekah Hayes"
+        },
+        {
+            "name": "Leonard Heer"
+        },
+        {
+            "name": "Roberto E. Herrera Miranda"
+        },
+        {
+            "name": "Nataliia H\u00fcbler"
+        },
+        {
+            "name": "Biu H. Huntington-Rainey"
+        },
+        {
+            "name": "Guglielmo Inglese"
+        },
+        {
+            "name": "Jessica K. Ivani"
+        },
+        {
+            "name": "Marilen Johns"
+        },
+        {
+            "name": "Erika Just"
+        },
+        {
+            "name": "Ivan Kapitonov"
+        },
+        {
+            "name": "Eri Kashima"
+        },
+        {
+            "name": "Carolina Kipf"
+        },
+        {
+            "name": "Janina V. Klingenberg"
+        },
+        {
+            "name": "Nikita K\u00f6nig"
+        },
+        {
+            "name": "Aikaterina Koti"
+        },
+        {
+            "name": "Richard G. A. Kowalik"
+        },
+        {
+            "name": "Olga Krasnoukhova"
+        },
+        {
+            "name": "Kate Lynn Lindsey"
+        },
+        {
+            "name": "Nora  L. M. Lindvall"
+        },
+        {
+            "name": "Mandy Lorenzen"
+        },
+        {
+            "name": "Hannah Lutzenberger"
+        },
+        {
+            "name": "Alexandra Marley"
+        },
+        {
+            "name": "T\u00e2nia R. A. Martins"
+        },
+        {
+            "name": "Celia Mata German"
+        },
+        {
+            "name": "Suzanne van der Meer"
+        },
+        {
+            "name": "Jaime Montoya"
+        },
+        {
+            "name": "Michael M\u00fcller"
+        },
+        {
+            "name": "Saliha Muradoglu"
+        },
+        {
+            "name": "HunterGatherer"
+        },
+        {
+            "name": "David Nash"
+        },
+        {
+            "name": "Kelsey Neely"
+        },
+        {
+            "name": "Johanna Nickel"
+        },
+        {
+            "name": "Miina Norvik"
+        },
+        {
+            "name": "Bruno Olsson"
+        },
+        {
+            "name": "Cheryl Akinyi Oluoch"
+        },
+        {
+            "name": "David Osgarby"
+        },
+        {
+            "name": "Jesse Peacock"
+        },
+        {
+            "name": "India O.C. Pearey"
+        },
+        {
+            "name": "Naomi Peck"
+        },
+        {
+            "name": "Jana Peter"
+        },
+        {
+            "name": "Stephanie Petit"
+        },
+        {
+            "name": "S\u00f6ren Pieper"
+        },
+        {
+            "name": "Mariana Poblete"
+        },
+        {
+            "name": "Daniel Prestipino"
+        },
+        {
+            "name": "Linda Raabe"
+        },
+        {
+            "name": "Amna Raja"
+        },
+        {
+            "name": "Janis Reimringer"
+        },
+        {
+            "name": "Sydney C. Rey"
+        },
+        {
+            "name": "Julia Rizaew"
+        },
+        {
+            "name": "Eloisa Ruppert"
+        },
+        {
+            "name": "Kim K. Salmon"
+        },
+        {
+            "name": "Jill Sammet"
+        },
+        {
+            "name": "Rhiannon Schembri"
+        },
+        {
+            "name": "Lars Schlabbach"
+        },
+        {
+            "name": "Frederick W. P. Schmidt"
+        },
+        {
+            "name": "Dineke Schokkin"
+        },
+        {
+            "name": "Jeff Siegel"
+        },
+        {
+            "name": "Amalia Skilton"
+        },
+        {
+            "name": "Hil\u00e1rio de Sousa"
+        },
+        {
+            "name": "Kristin Sverredal"
+        },
+        {
+            "name": "Daniel Valle"
+        },
+        {
+            "name": "Javier Vera"
+        },
+        {
+            "name": "Judith Vo\u00df"
+        },
+        {
+            "name": "Daniel Wikalier Smith"
+        },
+        {
+            "name": "Tim Witte"
+        },
+        {
+            "name": "Henry Wu"
+        },
+        {
+            "name": "Stephanie Yam"
+        },
+        {
+            "name": "Jingting Ye \u8449\u5a67\u5a77"
+        },
+        {
+            "name": "Maisie Yong"
+        },
+        {
+            "name": "Tessa Yuditha"
+        },
+        {
+            "name": "Roberto Zariquiey"
+        },
+        {
+            "name": "Robert Forkel"
+        },
+        {
+            "name": "Nicholas Evans"
+        },
+        {
+            "name": "Stephen C. Levinson"
+        },
+        {
+            "name": "Martin Haspelmath"
+        },
+        {
+            "name": "Simon J. Greenhill"
+        },
+        {
+            "name": "Quentin D. Atkinson"
+        },
+        {
+            "name": "Russell D. Gray"
+        }
+    ],
+    "title": null,
+    "access_right": "open",
+    "keywords": [
+        "cldf:StructureDataset",
+        "linguistics"
+    ],
+    "upload_type": "dataset",
+    "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>the ciatiot</p>\n</blockquote>",
+    "license": {
+        "id": "CC-BY-4.0"
+    }
+}
