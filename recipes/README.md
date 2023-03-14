@@ -16,6 +16,7 @@ These files can be accessed in various ways:
 - [Using off-the-shelf CSV tools](#csvkit)
 - [`pycldf`](#pycldf)
 - [SQLite](#sqlite)
+- [R](#r)
 
 
 <a id="csvkit"> </a>
@@ -166,7 +167,7 @@ The script requires two arguments:
 - a Grambank feature ID
 
 ```bash
-$ python recipes/values_per_area.py StructureDataset-metadata.json GB020
+$ python values_per_area.py StructureDataset-metadata.json GB020
 
 GB020: Are there definite or specific articles?
 
@@ -296,5 +297,5 @@ The output should be as follows:
 
 
 _R_ has also been used to create the figures visualizing Grambank data for the Grambank paper.
-These scripts are also [available in this repository](R_grambank) and described in a separate
-[README](R_grambank/README.md).
+These scripts are also [available in this repository](https://github.com/grambank/grambank-analysed/tree/main/R_grambank)
+and described in a separate [README](https://github.com/grambank/grambank-analysed/blob/main/R_grambank/README.md).
