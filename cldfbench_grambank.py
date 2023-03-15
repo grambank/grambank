@@ -18,15 +18,15 @@ from pygrambank.bib import lgcodestr
 
 # FIXME: These should be fixed in the data!
 INVALID = ['9', '.?']
-FEATURE_METADATA = [
-    'Grambank_ID_desc',
-    'boundness',
-    'Flexivity',
-    'Gender/noun class',
-    'locus of marking',
-    'word order',
-    'informativity',
-]
+FEATURE_METADATA = collections.OrderedDict((
+    ('Grambank_ID_desc', 'Grambank_ID_desc'),
+    ('boundness', 'Boundness'),
+    ('Flexivity', 'Flexivity'),
+    ('Gender/noun class', 'Gender_or_Noun_Class'),
+    ('locus of marking', 'Locus_of_Marking'),
+    ('word order', 'Word_Order'),
+    ('informativity', 'Informativity'),
+))
 
 
 def has_known_glottocode(sheet, glottocodes):
@@ -101,7 +101,7 @@ def create_schema(dataset):
             'separator': ' ',
             'dc:description': 'Grambank editors responsible for this feature',
         },
-        *FEATURE_METADATA,
+        *FEATURE_METADATA.values(),
     )
     dataset.add_component('CodeTable')
     dataset.add_columns('ValueTable', 'Source_comment', {"name": "Coders", "separator": ";"})
@@ -276,7 +276,8 @@ class Dataset(BaseDataset):
                     Name=feature.name,
                     Description=feature.description,
                     Patrons=feature.patrons),
-                {k: feature.get(k, '') for k in FEATURE_METADATA})
+                {colname: feature.get(k, '')
+                 for k, colname in FEATURE_METADATA.items()})
             for fid, feature in gb_features.items()]
         code_table = [
             dict(
