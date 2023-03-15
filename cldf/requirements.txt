@@ -3,7 +3,7 @@ Babel==2.12.1
 bs4==0.0.1
 certifi==2022.12.7
 cldfbench==1.13.0
--e git+https://github.com/grambank/grambank@6162b04613af65504df5c0e65348826ff2c88e86#egg=cldfbench_grambank
+-e git+https://github.com/grambank/grambank@38568ec4e4ed166dcb48b8ee96e9b159f94a99a3#egg=cldfbench_grambank
 cldfcatalog==1.5.1
 cldfzenodo==1.1.0
 clldutils==3.19.0

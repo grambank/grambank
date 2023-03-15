@@ -8,10 +8,10 @@ Articles are different from demonstratives in that demonstratives occur in a par
 
 ## Procedure
 1. Code 1 if there is a morpheme that can mark definiteness or specificity without also conveying a spatial deictic meaning.
-
 2. Code 0 if the source does not mention a definite article and you cannot find one in examples or texts in an otherwise comprehensive grammar.
-
 3. Code ? if the grammar does not contain enough analysis to determine whether there is a definite article or not.
+4. If you have coded 1 for GB020 and 0 for GB021 and GB022, please write a comment explaining the position of the definite or specific article. 
+5. 
 
 
 
@@ -165,12 +165,13 @@ Jay Latarche and Jeremy Collins",,JLA JC,GB021 ARTIndef,,,,,,indef
 GB022,Are there prenominal articles?,"## Are there prenominal articles?
 
 ## Summary
-All questions concerning the order of elements aim to capture the pragmatically unmarked order. Articles cover both definite or indefinite articles as defined in [GB020](https://github.com/grambank/grambank/wiki/GB020) and [GB021](https://github.com/grambank/grambank/wiki/GB021) respectively. In order to answer 1 for this feature, the markers' functions need to meet one of those definitions, so 1 should also have been answered for [GB020](https://github.com/grambank/grambank/wiki/GB020) or [GB021](https://github.com/grambank/grambank/wiki/GB021).
+All questions concerning the order of elements aim to capture a pragmatically unmarked order. If both GB022 and GB023 are coded 1, please write a comment. Articles cover both definite or indefinite articles as defined in [GB020](https://github.com/grambank/grambank/wiki/GB020) and [GB021](https://github.com/grambank/grambank/wiki/GB021) respectively. In order to answer 1 for this feature, the markers' functions need to meet one of those definitions, so 1 should also have been answered for [GB020](https://github.com/grambank/grambank/wiki/GB020) or [GB021](https://github.com/grambank/grambank/wiki/GB021).
 
 ## Procedure
-1. If there are articles, code 1 if in the pragmatically unmarked order they can precede the noun.
+1. If there are articles, code 1 if in a pragmatically unmarked order they can precede the noun.
 2. If there is an item which occurs before the noun which may be an article but which receives ? for GB020 or GB021, then code ?.
 3. If demonstratives and articles are not well described, then code ?.
+4. If both GB022 and [GB023](https://github.com/grambank/Grambank/wiki/GB023) are coded as 1, please write a comment explaining this as we are interested in the reasons that a language may have both prenominal and postnominal articles.
 
 ## Examples
 
@@ -216,12 +217,13 @@ Jay Latarche and Jeremy Collins
 GB023,Are there postnominal articles?,"## Are there postnominal articles?
 
 ## Summary
-All questions concerning the order of elements aim to capture the pragmatically unmarked order. Articles cover both definite or indefinite articles as defined in [GB020](https://github.com/grambank/grambank/wiki/GB020) and [GB021](https://github.com/grambank/grambank/wiki/GB021) respectively. In order to answer 1 for this feature, the markers' functions need to meet one of those definitions, so 1 should also have been answered for [GB020](https://github.com/grambank/grambank/wiki/GB020) or [GB021](https://github.com/grambank/grambank/wiki/GB021).
+All questions concerning the order of elements aim to capture a pragmatically unmarked order.If both GB022 and GB023 are coded 1, please write a comment. Articles cover both definite or indefinite articles as defined in [GB020](https://github.com/grambank/grambank/wiki/GB020) and [GB021](https://github.com/grambank/grambank/wiki/GB021) respectively. In order to answer 1 for this feature, the markers' functions need to meet one of those definitions, so 1 should also have been answered for [GB020](https://github.com/grambank/grambank/wiki/GB020) or [GB021](https://github.com/grambank/grambank/wiki/GB021).
 
 ## Procedure
-1. If there are articles, code 1 if in the pragmatically unmarked order they follow the noun.
+1. If there are articles, code 1 if in a pragmatically unmarked order they follow the noun.
 2. If there is an item which occurs after the noun which may be an article but which receives ? for GB020 or GB021, then code ?.
 3. If demonstratives and articles are not well described in the language, then code ?.
+4. If both GB023 and [GB022](https://github.com/grambank/Grambank/wiki/GB022) are coded as 1, please leave a comment explaining this as we are interested in the reasons that a language may have both prenominal and postnominal articles.
 		
 ## Examples
 
@@ -375,10 +377,12 @@ GB026,Can adnominal property words occur discontinuously?,"## Can adnominal prop
 ## Summary
 This feature describes an adnominal property word denoting core adjectival concepts such as shape, value, dimension, age, color (at a minimum -- many other meanings are possible) which can be separated from the noun it modifies by some element that is not part of the nominal phrase. For example, can you say ***the man** is running **big*** to mean ‘**the big man** is running’? 
 
-Typically a language which allows this has extensive [agreement](https://github.com/grambank/grambank/wiki/Agreement) systems so that you can still work out what modifies what in the NP without them being adjacent (e.g. the ‘Australian type’). NPs that are made up of several coordinated NPs that can be interpreted by the verb or other elements are not relevant here. This features aims specifically to capture the phenomenon of a single NP whose head and modifiers can be separated. Examples of the type *I painted the house red* or *I saw the boy big* are not necessarily discontinuous, but most likely resultative or contrastive (*I saw the boy big* [as opposed to before when he was small]). These should be disregarded for the purposes of this feature.
+Typically a language which allows this has extensive [agreement](https://github.com/grambank/grambank/wiki/Agreement) systems so that you can still work out what modifies what in the NP without them being adjacent (e.g. the ‘Australian type’). NPs that are made up of several coordinated NPs that can be interpreted by the verb or other elements are not relevant here. This features aims specifically to capture the phenomenon of a single NP whose property words can occur outside of and not immediately adjacent to the portion of the NP that contains the head. Examples of the type *I painted the house red* or *I saw the boy big* are not necessarily discontinuous, but most likely resultative or contrastive (*I saw the boy big* [as opposed to before when he was small]). These should be disregarded for the purposes of this feature.
+
+Note that for the purposes of this feature only property words (e.g. *tall*, *red*, *friendly*) should be considered. Any other elements described as 'adjectives' or 'adjectival' in the grammatical description (e.g. quantifiers, demonstratives) should be disregarded in coding this feature.
 
 ## Procedure
-1. Code 1 if there any sentences illustrating noun phrases where the adnominal property word is separated from the noun phrase whose head it modifies, such as *The man is running big.* to mean ‘The big man is running.’
+1. Code 1 if there are any sentences illustrating noun phrases where the adnominal property word is separated from the noun phrase whose head it modifies, such as *The man is running big.* to mean ‘The big man is running.’
 2. Ignore sentences which may be resultatives such as *I painted the house red.* or contrastives such as *I saw the boy big.* (when he was an adult).
 3. Code 1 if the grammar specifically states that the language allows adnominal property words to occur in a position separated from the remainder of the nominal phrase whose head they modify.
 4. If discontinuous adnominal property words are not mentioned and there are no example sentences that show this phenomenon, code 0.
@@ -439,9 +443,10 @@ GB027,Are nominal conjunction and comitative expressed by different elements?,"#
 Is there a difference between the marking of NP coordination (*John **and** Mary went to market.*) and the marking of comitative phrases (*John **with** Mary went to market.*)? In some languages the only way to coordinate noun phrases is with a comitative phrase, i.e. the only way to say ‘X **and** Y’ is ‘X **with** Y’. To see whether an element is comitative or coordinating you can check case marking and agreement. For example, if X is the element in question and in the dative you get ‘John-DAT X Mary-DAT’, then X is likely coordinating. If you get ‘John-DAT X Mary’, X is likely comitative. If there is agreement, if you get ‘John X Mary verb-PL’ rather than 'John X Mary verb-SG' (just like ‘John X suitcase verb-SG’), this suggests that X is coordinating.
 
 ## Procedure
-1. Code 1 if there is an example of NP coordination (e.g. *John **and** Mary went to the market*) which uses an element that is distinct from the comitative marker (e.g. *John went to the market **with** Mary.*). 
-2. Code 0 if a grammar states that the language uses the same elements to coordinate NPs and to mark comitative phrases.
-3. Grammars do not always explicitly state whether or not the same element is used for comitative marking and nominal conjunction. Look for examples in example sentences and in appended texts as well as in the prose of the grammar.
+1. Determine if both comitative and nominal conjunction are overtly marked (i.e. not solely by juxtaposition). If one of them is zero-marked, code 0.
+2. Code 1 if there is an example of NP coordination (e.g. *John **and** Mary went to the market*) which uses an element that is distinct from the comitative marker (e.g. *John went to the market **with** Mary.*). 
+3. Code 0 if a grammar states that the language uses the same elements to coordinate NPs and to mark comitative phrases.
+4. Grammars do not always explicitly state whether or not the same element is used for comitative marking and nominal conjunction. Look for examples in example sentences and in appended texts as well as in the prose of the grammar.
 
 ## Examples
 **Turkish** (ISO 639-3: tur, Glottolog: nucl1301) 
@@ -648,6 +653,7 @@ Kayardild has a dual form for each person category in its pronominal paradigm, s
 Cherokee has a dual form for first person (both inclusive and exclusive) and second person pronominal prefixes, but not for third person.
 
 Cherokee pronominal prefixes (From Montgomery-Anderson 2008: 168)
+
 | Person | Singular | Dual | Plural |
 | --- | --- | --- | --- |
 | 1.INCL | _ji-/k-_ | _iinii-_ | _iitii-_ |
@@ -677,6 +683,7 @@ Morey, Stephen. 2005. *The Tai languages of Assam.* (Pacific Linguistics, 565.) 
 Round, Erich Ross. 2009. *Kayardild morphology, phonology and morphosyntax.* New Haven: Yale University. (Doctoral dissertation.)
 
 ## Related Features
+
 * [GB043	Is there a productive morphological dual marker on nouns?](https://github.com/grambank/Grambank/wiki/GB043)
 
 ## Patron
@@ -1207,6 +1214,7 @@ Breen, Gavan 2003. [Wanyi and Garrwa comparative data](https://core.ac.uk/downlo
 * [GB185 Can an adnominal demonstrative agree with the noun in number?](https://github.com/grambank/Grambank/wiki/GB185)
 
 **Other**
+
 * [GB039 Is there nonphonological allomorphy of noun number markers?](https://github.com/grambank/Grambank/wiki/GB039)
 * [GB041 Are there several nouns (more than three) which are suppletive for number?](https://github.com/grambank/Grambank/wiki/GB041)
 * [GB046 Is there an associative plural marker for nouns?](https://github.com/grambank/Grambank/wiki/GB046)
@@ -2793,7 +2801,7 @@ GB079,"Do verbs have prefixes/proclitics, other than those that only mark A, S o
 
 ## Summary
 
-These [prefixes or proclitics](https://github.com/grambank/grambank/wiki/Affixes-and-clitics) could have a variety of functions, marking TAME, functioning as verbal derivation markers, as inverse markers, relative markers, etc. Only [indexes](https://github.com/grambank/grambank/wiki/Indexing-vs.-pronouns) dedicated to core argument marking do not count. The end result has to be a finite verb and cannot, for example, be a deverbal noun or an adverb.
+These [prefixes or proclitics](https://github.com/grambank/grambank/wiki/Affixes-and-clitics) could have a variety of functions, marking TAME, functioning as verbal derivation markers, as inverse markers, relative markers, etc. Only [indexes](https://github.com/grambank/grambank/wiki/Indexing-vs.-pronouns) dedicated to core argument marking do not count. The end result has to be a finite verb and cannot, for example, be a deverbal noun or an adverb. Grambank counts the separate elements of circumfixes as affixes. If one of the elements of a circumfix precedes the host it attaches to, we treat it as a prefix. If one of the elements of a circumfix follows the host it attaches to, we treat it as a suffix.
 
 ## Procedure
 
@@ -2873,7 +2881,7 @@ GB080,"Do verbs have suffixes/enclitics, other than those that only mark A, S or
 
 ## Summary
 
-These [suffixes or enclitics](https://github.com/grambank/grambank/wiki/Affixes-and-clitics) could have a variety of functions, marking TAME, functioning as verbal derivation markers, as inverse markers, relative markers, etc. Only [indexes](https://github.com/grambank/grambank/wiki/Indexing-vs.-pronouns) dedicated to core argument marking do not count. The end result has to be a finite verb and cannot, for example, be a deverbal noun or an adverb.
+These [suffixes or enclitics](https://github.com/grambank/grambank/wiki/Affixes-and-clitics) could have a variety of functions, marking TAME, functioning as verbal derivation markers, as inverse markers, relative markers, etc. Only [indexes](https://github.com/grambank/grambank/wiki/Indexing-vs.-pronouns) dedicated to core argument marking do not count. The end result has to be a finite verb and cannot, for example, be a deverbal noun or an adverb. Grambank counts the separate elements of circumfixes as affixes. If one of the elements of a circumfix precedes the host it attaches to, we treat it as a prefix. If one of the elements of a circumfix follows the host it attaches to, we treat it as a suffix.
 
 
 ## Procedure
@@ -3179,7 +3187,11 @@ Hedvig Skirgård
 GB086,Is a morphological distinction between perfective and imperfective aspect available on verbs?,"## Is a morphological distinction between perfective and imperfective aspect available on verbs?
 
 ## Summary
-This feature is concerned with [phonologically bound](https://github.com/grambank/grambank/wiki/Wordhood-and-phonological-boundness-or-independence) marking of imperfective and perfective grammatical aspects. These categories could go by the name of punctual and continuous, preterit and progressive, etc. The answer could be 1 even if only one of these is overtly marked, e.g. if the imperfective is marked by an affix and the perfective is marked by an auxiliary. Please take notice that this feature (GB086) and the features on aspectual auxiliaries [GB120](https://github.com/grambank/Grambank/wiki/GB120) and particles [GB520](https://github.com/grambank/Grambank/wiki/GB520) do not cover exactly the same functions. The features on auxiliaries and particles cover more grammatical aspects than just perfective and imperfective. 
+This feature is concerned with [phonologically bound](https://github.com/grambank/grambank/wiki/Wordhood-and-phonological-boundness-or-independence) marking of imperfective and perfective grammatical aspects. These categories could go by the name of punctual and continuous, preterit and progressive, etc. The answer could be 1 even if only one of these is overtly marked, e.g. if the imperfective is marked by an affix and the perfective is marked by an auxiliary. 
+
+There are instances where TAM can be expressed by a combination of an affix and auxiliary or particle. For example, some grammarians state that the imperfective aspect is expressed by a certain form on the verbal root and an auxiliary. If this is a [productive](https://github.com/grambank/grambank/wiki/Productivity) and [obligatory](https://github.com/grambank/grambank/wiki/Obligatoriness) way of expressing imperfective aspect then such a construction triggers 1 for both this feature (GB086) and the feature on aspectual auxiliaries ([GB120](https://github.com/grambank/Grambank/wiki/GB120) and/or [GB520](https://github.com/grambank/Grambank/wiki/GB520)). If not all parts of the discontinuous marking are necessary for expressing imperfective aspect, then only consider the marking that is obligatory.
+
+Please take notice that this feature (GB086) and the features on aspectual auxiliaries [GB120](https://github.com/grambank/Grambank/wiki/GB120) and particles [GB520](https://github.com/grambank/Grambank/wiki/GB520) do not cover exactly the same functions. The features on auxiliaries and particles cover more grammatical aspects than just perfective and imperfective. 
 
 If this distinction is only available in some TAM-conditions, this counts as well. For example, if there is no aspectual distinction in the past but it only exists in the present, this still triggers a 1.
 
@@ -3758,7 +3770,7 @@ Code as 1. Subjects and objects are indexed on the verb; subjects are suffixes a
 ti‐bobo‐m
 1SG.OBJ‐hit‐2SG.SBJ
 ‘You hit me.’ (van Gijn 2006: 145)
-````
+```
 
 **Bukiyip** (ISO 639-3: ape, Glottolog: buki1249) 
 
@@ -3818,7 +3830,7 @@ GB095,Are variations in marking strategies of core participants based on TAM dis
 Marking strategies of core participants include both marking by [indexing](https://github.com/grambank/Grambank/wiki/Indexing-vs.-pronouns) and by flagging (i.e. case or adposition marking). Variations in marking strategies include both variations in the alignment patterns and variations in position (e.g. suffixing vs. prefixing) in case of indexes. This question includes some of the cases referred to as (alignment) split in the literature. 
 Merely different allomorphs of person/number indexes in the same position do not count. 
 Polarity (i.e. positive vs. negative distinction) does not count as a TAM category. 
-Absence of overt indexing in the imperative does not count either.
+Any variation of indexing in the imperative does not count either.
 
 ## Procedure
 1. Consider the flagging of the [core arguments](https://github.com/grambank/grambank/wiki/Core-arguments-(S,-A-and-P)) in the language (coded in [GB408](https://github.com/grambank/Grambank/wiki/GB408), [GB409](https://github.com/grambank/Grambank/wiki/GB409), and [GB410](https://github.com/grambank/Grambank/wiki/GB410)). Is there any variation in the flagging of either S, A, or P which is determined by TAM categories (e.g. certain cases are used only in the perfective but not in the imperfective)? Code 1 if this is the case. Specifically look for such terms as *split ergative/ergativity* and *differential subject marking*.
@@ -3915,6 +3927,7 @@ Alena Witzlack-Makarevich
 GB096,Are variations in marking strategies of core participants based on verb classes?,"## Are variations in marking strategies of core participants based on verb classes?
 
 ## Summary
+
 Marking strategies include both marking by [indexing](https://github.com/grambank/Grambank/wiki/Indexing-vs.-pronouns) and by flagging. The distinction between intransitive and transitive verbs is not included here. 
 Variations in marking strategies include both variations in the alignment patterns and variations in position (e.g. suffixing vs. prefixing) in case of indexes. 
 Mere differences in forms of the indexes triggered by various conjugation classes are not sufficient for 1. 
@@ -3924,6 +3937,7 @@ The patterns of interest are more common with intransitive verbs and include cas
 
 
 ## Procedure
+
 1. Consider the flagging patterns of the language (coded in [GB408](https://github.com/grambank/Grambank/wiki/GB408), [GB409](https://github.com/grambank/Grambank/wiki/GB409), and [GB410](https://github.com/grambank/Grambank/wiki/GB410)). Identify whether there is any variation in the flagging of either [S, A, or P](https://github.com/grambank/grambank/wiki/Core-arguments-(S,-A-and-P)) that is determined by verb classes.
 2. If there is variation in flagging, consider whether the respective verb classes are of substantial size. If the classes are substantially large, code 1 in the following cases: Code 1 if there are differences in the form of the respective markers which result in different alignment patterns. Code 1 if there is a variation in the position of indexes (prefix/proclitic vs. suffix/clitic), even if the overall alignment pattern remains the same.
 3. Consider the indexing patterns of the language (coded in [GB089](https://github.com/grambank/Grambank/wiki/GB089)–[GB094](https://github.com/grambank/Grambank/wiki/GB409), and [GB410](https://github.com/grambank/Grambank/wiki/GB094)). Consider whether there are any differences in the form of the respective indexes. Specifically look for such terms as *active(-inactive)*, *agentive-patientive*, *stative-active alignment* or *split-S* and consider the respective verb classes. Look for cases of *non-canonical argument marking* and consider the respective verb classes.
@@ -3993,7 +4007,7 @@ b. Bitte  folgen Sie mir!
 c. Ich  kann  ihm      nicht  verzeihen.
    I    can   him.DAT  NEG    forgive
    ‘I cannot forgive him.’
-```` 
+``` 
 
 **Osage** (ISO 639-3: osa, Glottolog: osag1243)
 
@@ -4061,6 +4075,7 @@ Rosés Labrada, Jorge E. 2015. *The Mako language: Vitality, grammar and classif
 Wolff, Hans. 1952. Osage II: Morphology. *International Journal of American Linguistics* 18, 231–237.
 
 ## Related Features
+
 Features on indexing
 
 * [GB089 Can the S argument be indexed by a suffix/enclitic on the verb in the simple independent clause?](https://github.com/grambank/Grambank/wiki/GB089)
@@ -4071,11 +4086,13 @@ Features on indexing
 * [GB094 Can the P argument be indexed by a prefix/proclitic on the verb in the simple independent clause?](https://github.com/grambank/Grambank/wiki/GB094)
 
 Features on flagging
+
 * [GB408 Is there any accusative alignment of flagging?](https://github.com/grambank/Grambank/wiki/GB408)
 * [GB409 Is there any ergative alignment of flagging?](https://github.com/grambank/Grambank/wiki/GB409)
 * [GB410 Is there any neutral alignment of flagging?](https://github.com/grambank/Grambank/wiki/GB410)
 
 ## Patron
+
 Alena Witzlack-Makarevich
 ",,AWM,GB096 CaseSplitVerbClass,,1,,,,
 GB098,Are variations in marking strategies of core participants based on person distinctions?,"## Are variations in marking strategies of core participants based on person distinctions?
@@ -4101,24 +4118,24 @@ The alignment pattern of English flagging is conditioned by person, number and n
 ```
 1. First person
 
-a. I[S] smiled.
+   a. I[S] smiled.
 
-b. I[S] have read this book.
+   b. I[S] have read this book.
 
-c. He saw me[P].
+   c. He saw me[P].
 
 2. Second person
 
-a. You[S] smiled.
+   a. You[S] smiled.
 
-b. You[A] have read this book.
+   b. You[A] have read this book.
 
-c. I saw you[P].
+   c. I saw you[P].
 ```
 
 **Kirmanjki** (ISO 639-3: kiu, Glottolog: kirm1248)
 
-Kirmanjiki shows variations in case marking of core participants based on a number of factors: animacy, noun vs. pronoun, person distinctions and [TAM (GB095)](https://github.com/grambank/Grambank/wiki/GB095) (Selcan 1998).
+Kirmanjki shows variations in case marking of core participants based on a number of factors: animacy, noun vs. pronoun, person distinctions and [TAM (GB095)](https://github.com/grambank/Grambank/wiki/GB095) (Selcan 1998).
 In non-past tenses, S, A and nominal inanimate Ps, as well as some pronominal P arguments (1PL, 2PL) are in the **direct** case. 
 Animate nominal Ps, as well as 1SG, 2SG, 3SG and 3PL pronominal P are in the **oblique** case. 
 This pattern of case marking yields neutral alignment for inanimate nouns, as well as for 1PL and 2PL pronouns, and accusative alignment for animate nouns, as well as for 1SG, 2SG and 3SG/PL pronouns. 
@@ -4344,12 +4361,12 @@ Jakob Lesage
 GB105,Can the recipient in a ditransitive construction be marked like the monotransitive patient?,"## Can the recipient in a ditransitive construction be marked like the transitive patient?
 
 ## Summary
-As a ditransitive construction we consider constructions with ditransitive verbs expressing a physical transfer of possession or a mental transfer of messages (*give*, *lend*, *hand*, *feed*, *send*, *bring*, *show*, *tell*, *teach*). A ditransitive verb must allow overt expression of an agent, a theme and a recipient/addressee as separate NPs. The morphological marking of these arguments (e.g. accusative case, dative case vs. adposition marking) is irrelevant for counting a verb as ditransitive.
+As a ditransitive construction we consider constructions with verbs expressing a physical transfer of possession or a mental transfer of messages (*give*, *lend*, *hand*, *feed*, *send*, *bring*, *show*, *tell*, *teach*). A ditransitive construction must allow overt expression of an agent, a theme and a recipient/addressee as separate NPs. The morphological marking of these arguments (e.g. accusative case, dative case vs. adposition marking) is irrelevant for counting a construction as ditransitive.
 
 ‘Marking’ for the purposes of this feature includes both flagging (i.e. case and adposition marking) and [indexing](https://github.com/grambank/grambank/wiki/Indexing-vs.-pronouns) on the verb. 1 is primarily triggered by flagging. Only if there is no overt flagging for neither the P argument nor the recipient argument, indexing is considered. 1 covers both the ‘double-object construction’ and the ‘secondary-object construction’ of Haspelmath (2013).
 
 ## Procedure
-1. Consider the section in the grammar that deals with argument flagging (i.e. case and adposition marking) and indexing. Check whether it discusses ditransitive verbs. If not, search the grammar for examples with ditransitive verbs.
+1. Consider the section in the grammar that deals with argument flagging (i.e. case and adposition marking) and indexing. Check whether it discusses ditransitive verbs or ditransitive constructions. If not, search the grammar for examples with verbs expressing a physical transfer.
 2. If the overt flagging of the P argument and the recipient argument is identical, code as 1.
 3. If the P argument and the recipient are marked with different flags, code as 0.
 4. If only the P argument or only the recipient is overtly marked, code as 0.
@@ -4357,7 +4374,8 @@ As a ditransitive construction we consider constructions with ditransitive verbs
 6. Code as 1 if the two arguments are indexed identically.
 5. If the indexing of the P argument differs from the indexing of the recipient, code as 0.
 6. If there is neither overt indexing not flagging for both P and the recipient, code as 1.
-7. Various ditransitive verbs might have different marking patterns. As the question is about the possibility of the recipient in a ditransitive construction to be marked like the transitive patient, code as 1 even if not all verbs follow this pattern and add a comment.
+7. Various relevant verbs might have different marking patterns. As the question is about the possibility of the recipient in a ditransitive construction to be marked like the transitive patient, code as 1 even if not all verbs follow this pattern and add a comment.
+8. Even if the author of the grammar explicitly states the language has no ditransitive verbs, still consider and code the marking of the arguments of verbs of a physical transfer.  
 
 ## Examples
 **Awa-Cuaiquer** (ISO 639-3: kwi, Glottolog: awac1239)
@@ -4401,7 +4419,7 @@ Alena Witzlack-Makarevich",,AWM,GB105 CaseRecipientObj,,,,,,
 GB107,"Can standard negation be marked by an affix, clitic or modification of the verb?","## Can standard negation be marked by an affix, clitic or modification of the verb?
 
 ## Summary
-This feature refers to Standard Negation, i.e. the constructions that mark negation of (at least) dynamic (not-stative) verbal predicates in declarative mood. The marker has to form a [phonological unit](https://github.com/grambank/grambank/wiki/Wordhood-and-phonological-boundness-or-independence) with the verbal root, be it by affixation, cliticization, suppletion, reduplication, tone, etc. For markers bound to auxiliaries, see [GB298](https://github.com/grambank/Grambank/wiki/GB298). If there is negative marking on the verb and elsewhere (for example by a particle) in the same construction, this is included in this feature.
+This feature refers to Standard Negation, i.e. the constructions that mark negation of (at least) dynamic (not-stative) verbal predicates in declarative mood. The marker has to form a [phonological unit](https://github.com/grambank/grambank/wiki/Wordhood-and-phonological-boundness-or-independence) with the verbal root, be it by affixation, cliticization, suppletion, reduplication, tone, etc. For markers bound to auxiliaries, see [GB298](https://github.com/grambank/Grambank/wiki/GB298). If there is negative marking on the verb and elsewhere (for example by a particle) in the same construction, this is included in this feature. If there is a clitic that attaches to anything in its vicinity, this doesn't count.
 
 ## Procedure
 1. Find the section in the available descriptive literature that deals with negation.
@@ -4421,6 +4439,31 @@ Hasan book-ACC read-NEG-PST
 ‘Hasan didn't read the book.’ (Kornfilt 1997: 123)
 ```
 
+**Swedish** (ISO 639-3: swe, Glottolog: swed1254)
+
+Swedish accomplishes negation with a particle (_icke_ or _inte_). It is possible for this particle to be phonologically bound to the verb, but it does not qualify for a 1 for this feature because it cliticizes to anything that precedes it - not just verbs. Below are examples from the Swedish dialect Jarssemål (spoken in Järvsö in Hälsingland). All examples are taken from Håkan Franck (1999) via Skigård (2010), with glosses and translation added by patron (also Skirgård). Swedish is coded as 0.
+
+```
+(1) free-standing
+Fräsen begrep int dä där, han e.
+Hisser understand NEG that there, 3SG.MASK NEG
+'The kitty didn't understand that, did he?""
+```
+
+```
+(2) cliticised to verb
+Jasså, du Fräsen! Du tyttje=n't ôm främmande du, e.
+well.then 2SG Hisser 2SG like=NEG about strangers 2SG NEG
+'Well then Kitty, you don't care for strangers do you?""
+```
+
+```
+(3) cliticised to pragmatic particle
+Dä ä ju=n't sa långt hem tä ôss, e.
+It is PRAG.PART=NEG so far home to us, NEG
+'It's not that far home to us, is it?'
+```
+
 ## Further reading
 
 Croft, William. 1991. The evolution of negation. *Journal of Linguistics* 27(1). 1–27.
@@ -4438,6 +4481,8 @@ Dryer, Matthew S. 2013. [Order of negative morpheme and verb](http://wals.info/c
 Miestamo, Matti. 2013. [Symmetric and asymmetric standard negation](http://wals.info/chapter/113). In Matthew S. Dryer & Martin Haspelmath (eds), *The world atlas of language structures online*. Leipzig: Max Planck Institute for Evolutionary Anthropology.
  
 Payne, John R. 1985. Negation. In Timothy Shopen (ed.), *Language typology and syntactic description, vol. 1*. Cambridge: Cambridge University Press.
+
+Skirgård, Hedvig 2010. Finns det dubbelnegation i svenska dialekter? Inte.. e i två Hälsingemål (ENG: double negation in Swedish dialects). Ba thesis at Stockholm Univeristy
 
 ## References
 
@@ -4770,7 +4815,7 @@ GB114,Is there a phonologically bound reflexive marker on the verb?,"## Is there
 
 ## Summary
 
-A reflexive marker indicates that a participant is coreferential with another participant in the clause or sentence. This marker may indicate both reflexive and reciprocal functions. If a ‘middle-voice’ marker is used to mark reflexive functions, it also counts as a reflexive marker. Reduplication of verbs also counts. The reflexive construction needs to be [productive](https://github.com/grambank/grambank/wiki/Productivity), not limited to a small set of likely lexicalized verbs in the language, to trigger 1 for this feature. 
+A reflexive marker indicates that a participant is coreferential with another participant in the clause or sentence. This marker may indicate both reflexive and reciprocal functions. If a ‘middle-voice’ marker is used to mark reflexive functions, it also counts as a reflexive marker. Reduplication of verbs also counts. The reflexive construction needs to be [productive](https://github.com/grambank/grambank/wiki/Productivity), not limited to a small set of likely lexicalized verbs in the language, to trigger 1 for this feature. This question targets lexical verbs, anything that happens with auxiliaries is not relevant for this feature.
 
 ## Procedure
 
@@ -4981,7 +5026,7 @@ GB117,Is there a copula for predicate nominals?,"## Is there a copula for predic
 
 ## Summary
 
-Is there a copula in use in an equative sentence when the predicate is a nominal? The copula must be expressed in at least some equative sentences with predicate nominals but need not be obligatory in these constructions. Both verbal copulas and pro-copulas (e.g. demonstratives or personal pronouns that link the subject and predicate nominals) are relevant for this feature. Please note that adjectives are not included within the category of ‘nominals’ here.
+Is there a copula in use in an equative sentence when the predicate is a nominal? The copula must be expressed in at least some equative sentences with predicate nominals but need not be obligatory in these constructions. Both verbal copulas and pro-copulas (e.g. demonstratives or personal pronouns that link the subject and predicate nominals) are relevant for this feature. Please note that adjectives are not included within the category of ‘nominals’ here. Please note copulas may be free forms, affixes, or clitics. 
 
 ## Procedure
 1. Code 1 if there is an element which can be used with predicatively used nominals, even if it is restricted to certain contexts, and even if this marker has other functions and may, for example, function as demonstrative elsewhere.  
@@ -5110,8 +5155,9 @@ GB119,"Can mood be marked by an inflecting word (""auxiliary verb"")?","## Can m
 ## Summary
 This feature covers all grammatical moods (the relationship between the referred event/state/action and other possible worlds, or speaker's attitude) and aims to capture [phonologically free](https://github.com/grambank/grambank/wiki/Wordhood-and-phonological-boundness-or-independence) elements that inflect (i.e. change form depending on person, number and other categories of the core arguments). These markers are often described as ‘auxiliary verbs’ in the literature, but are also analyzed under other labels by some authors (such as STAMP morphemes (STAM = Subject-Tense-Aspect-Mood-Polarity) or inflecting pronouns). We are interested in grammatical marking, i.e. [dedicated](https://github.com/grambank/grambank/wiki/Dedicated-marking), [productive](https://github.com/grambank/grambank/wiki/Productivity) and [obligatory](https://github.com/grambank/grambank/wiki/Obligatoriness) marking. 
 
-While negation or interrogation can be considered as grammatical moods, they are not included in this feature.
+There are instances where TAM can be expressed by a combination of an affix and auxiliary or particle. For example, some grammarians state that a mood is expressed by a certain form on the verbal root and an auxiliary. If this is a [productive](https://github.com/grambank/grambank/wiki/Productivity) and [obligatory](https://github.com/grambank/grambank/wiki/Obligatoriness) way of expressing mood then such a construction triggers 1 for both this feature (GB119) and the feature on bound mood marking ([GB312](https://github.com/grambank/Grambank/wiki/GB312)). If not all parts of the discontinuous marking are necessary for expressing a mood, then only consider the marking that is obligatory.
 
+While negation or interrogation can be considered as grammatical moods, they are not included in this feature.
 
 ## Procedure
 1. Look up the section on mood marking in the grammatical description.
@@ -5216,6 +5262,8 @@ GB121,"Can tense be marked by an inflecting word (""auxiliary verb"")?","## Can 
 
 ## Summary
 This feature covers all tenses (present, past, and future) and aims to capture [phonologically free](https://github.com/grambank/grambank/wiki/Wordhood-and-phonological-boundness-or-independence) elements that inflect (i.e. change form depending on person, number and other categories of the core arguments). These markers are often described as ‘auxiliary verbs’ in the literature, but are also analyzed under other labels by some authors (such as STAMP morphemes (STAM = Subject-Tense-Aspect-Mood-Polarity) or inflecting pronouns). We are interested in grammatical marking, i.e. [dedicated](https://github.com/grambank/grambank/wiki/Dedicated-marking), [productive](https://github.com/grambank/grambank/wiki/Productivity) and [obligatory](https://github.com/grambank/grambank/wiki/Obligatoriness) marking. 
+
+There are instances where TAM can be expressed by a combination of an affix and auxiliary or particle. For example, some grammarians state that tense is expressed by a certain form on the verbal root and an auxiliary. If this is a [productive](https://github.com/grambank/grambank/wiki/Productivity) and [obligatory](https://github.com/grambank/grambank/wiki/Obligatoriness) way of expressing tense then such a construction triggers 1 for both this feature (GB121) and the features on bound tense marking ([GB082](https://github.com/grambank/Grambank/wiki/GB082)/[GB083](https://github.com/grambank/Grambank/wiki/GB083)/[GB084](https://github.com/grambank/Grambank/wiki/GB084)). If not all parts of the discontinuous marking are necessary for expressing a tense, then only consider the marking that is obligatory.
 
 ## Procedure
 1. Look up the section on tense marking in the grammatical description.
@@ -5414,7 +5462,7 @@ close ascend
 
 Anderson, Gregory D. 2011. [Auxiliary verb constructions (and other complex predicate types): A functional–constructional overview](https://doi.org/10.1111/j.1749-818X.2011.00311.x). *Language and Linguistics Compass* 5. 795–828.
 
-Butt, Miriam. 2003. [The light verb jungle](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.111.4948&rep=rep1&type=pdf). *Harvard Working Papers in Linguistics* 9. 1–49.
+Butt, Miriam. 2003. [The light verb jungle: Still hacking away](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.111.4948). *Harvard Working Papers in Linguistics* 9. 1–49.
 
 Seiss, Melanie. 2009. [On the difference between auxiliaries, serial verbs and light verbs](http://web.stanford.edu/group/cslipublications/cslipublications/LFG/14/papers/lfg09seiss.pdf). In Miriam Butt & Tracy Holloway King (eds), *Proceedings of the LFG09 Conference*, 501–519. Stanford, CA: CSLI Publications.
 
@@ -6591,13 +6639,13 @@ GB140,"Is verbal predication marked by the same negator as all of the following 
 ## Summary
 This feature pertains only to the negative marker itself, be it an independent particle, verb, auxiliary, clitic or affix. This feature covers three kinds of non-verbal negation: locational (*The dog is not in the kitchen.*), existential (*Hogwarts does not exist.*) or nominal predication (*Ursula is not a witch.*). 
 
-
 ## Procedure
 1. Find the section in the available descriptive literature that deals with negation.
 2. Find the sections that describe locational, existential and nominal predication.
 3. If at least one of these three has a different negator from verbal negation, code this feature as 0.
 4. If you can only find information on one of these three, and it is expressed with the same negator as verbal negation, code as ?.
-5. If you cannot find information on any of these three categories of non-verbal negation, code as ?.
+5. If the source is extensive and only brings up 2 out of 3 of the functions, we can probably safely assume that if the third one was different it would have bene mentioned. Therefore we can code 1. However if the description is minimal, we should code ? because the author could just have missed the third kind of function.
+6. If you cannot find information on any of these three categories of non-verbal negation, code as ?.
 
 ## Examples
 **Turkish** (ISO 639-3: tur, Glottolog: nucl1301) 
@@ -6645,7 +6693,7 @@ Kornfilt, Jaklin. 1997. _Turkish_. (Descriptive Grammars.) London: Routledge.
 ## Patron
 Hedvig Skirgård
 ",,HS,GB140 SameNEGLocExistNom,,,,,,differentneg
-GB146,Is there a morpho-syntactic distinction between predicates expressing controlled versus uncontrolled events or states?,"## Is there a morpho-syntactic distinction between predicates expressing controlled versus uncontrolled events or states?
+GB146,Is there a morpho-syntactic distinction between predicates expressing controlled versus uncontrolled events or states?,"## Is there a morphosyntactic distinction between predicates expressing controlled versus uncontrolled events or states?
 
 ## Summary
 
@@ -6735,6 +6783,8 @@ GB147,Is there a morphological passive marked on the lexical verb?,"## Is there 
 
 Passivization is a detransitivizing operation that takes a transitive clause (*The dog bites the man.*) and turns it into an intransitive clause by promoting the [P](https://github.com/grambank/grambank/wiki/Core-arguments-(S,-A-and-P)) argument (*the man*) to morphosyntactic [S](https://github.com/grambank/grambank/wiki/Core-arguments-(S,-A-and-P)) function. In the resulting intransitive clause, the former [A](https://github.com/grambank/grambank/wiki/Core-arguments-(S,-A-and-P)) argument (*the dog*) either vanishes or adopts an oblique function: *The man is bitten (by the dog).* ‘Mediopassives’, ‘anticausatives’ and the sort (e.g. ‘x breaks the vase’ > ‘the vase breaks’) also count as passives. This question targets [phonologically bound](https://github.com/grambank/grambank/wiki/Wordhood-and-phonological-boundness-or-independence) passive markers on lexical verbs. Anything that happens with auxiliaries is irrelevant here.
 
+Sometimes a language uses a combination of an auxiliary and a special form of the verb to express passive clauses. This verb form may be called a 'participle' or 'infinitive'. If such participial or infinitival forms are morphologically marked (that is, they are not unmarked/zero-marked), they also trigger a 1 for this feature.
+
 ## Procedure
 
 1. Code 1 if a source mentions a phonologically bound morpheme that marks passive clauses. 
@@ -6754,7 +6804,7 @@ Udihe has a morphological passive, which is formed with the suffix *-u*. Udihe i
 
 ```
 si      min-du   gida-si-u-zeŋe-i
-you     me-DAT   spear-V-PAS-FUT-2SG
+you     me-DAT   spear-V-PASS-FUT-2SG
 ‘You will be killed by me.’ (Nikolaeva & Tolskaya 2001: 572–582)
 ```
 
@@ -6996,11 +7046,11 @@ Jakob Lesage
 GB150,Is there clause chaining?,"## Is there clause chaining?
 
 ## Summary
-Clause-chaining involves sequences of medial clauses (i.e. formally reduced or restricted clauses that do not have the full marking that usually occurs on the verb) which are dependent on a single, fully inflected verb that often (but not always) occurs in final clause. Clause chains may also be referred to as topic chains or as sequences of medial clauses/medial verbs. Crucially, this construction involves a single clause with a full, unrestricted, finite verb form and several medial clauses that are dependent on it for specification of inflectional categories (e.g. TAM). 
+Clause-chaining involves sequences of medial clauses (i.e. formally reduced or restricted clauses that do not have the full marking that usually occurs on the verb) which are dependent on a single, fully inflected verb that often (but not always) occurs in final clause. Clause chains may also be referred to as topic chains or as sequences of medial clauses/medial verbs. Crucially, this construction involves a single clause with a full, unrestricted, finite verb form and medial clauses that are dependent on it for specification of inflectional categories (e.g. TAM). 
 
 Clause chains are often used to describe sequences of events, and the medial verbs involved may be marked by [special affixes to indicate temporal relationships](https://github.com/grambank/Grambank/wiki/GB152). Clause chains may also include markers of [switch reference](https://github.com/grambank/Grambank/wiki/GB151). Medial verbs in some languages may be marked in the usual way for person/number of their arguments, though they generally lack some other canonical verbal inflection or involve specific marked verb forms that cannot be used in freestanding clauses. 
 
-There is considerable debate regarding the syntax of clause chaining generally and within individual languages. This construction is not merely a series of juxtaposed minimal clauses, as it requires dependency on one clause for full interpretation. It is also not straightforwardly a series of subordinated clauses (as in the series of temporal adjuncts in English, *Before he ate, while he was cooking the soup, he added salt.*). The syntactic relationship between clauses in clause chains is often described as a special type of coordination or a form of cosubordination.
+There is considerable debate regarding the syntax of clause chaining generally and within individual languages. This construction is not merely a series of juxtaposed minimal clauses, as it requires dependency on one fully specified clause for full interpretation. It is also not straightforwardly a series of subordinated clauses (as in the series of temporal adjuncts in English, *Before he ate, while he was cooking the soup, he added salt.*). The syntactic relationship between clauses in clause chains is often described as a special type of coordination or a form of cosubordination.
 
 In some cases clause-chaining may be difficult to distinguish from [serial verb constructions](https://github.com/grambank/Grambank/wiki/GB118). Remember that a serial verb construction involves a set of verbs or verb phrases that function as a single predicate, whereas clause-chaining involves a set of *clauses* with formally reduced verbs, all dependent on a single fully specified verb form. Clause-chaining is also different from [verb compounding](https://github.com/grambank/Grambank/wiki/GB122) in that the clauses in clause chaining are [phonologically independent](https://github.com/grambank/grambank/wiki/Wordhood-and-phonological-boundness-or-independence) and express separate propositions, which is not the case for verb compounding. In cases where it is unclear which of these constructions is represented by the examples in the grammar, a ? may be coded, but be sure to indicate in the comments that you were unable to determine which of these constructions is demonstrated in the relevant examples.
 
@@ -7032,12 +7082,12 @@ b. Yaisi  mɨ=toogɨ=tɨwau  nobiya-u-si,  mɨ=toogi=tɨwau  tsa-hibi-kɨ-u-ga-s
 However, this clause-chaining construction differs markedly from the normal subordination construction in Northern Paiute, which involves nominalization and cannot involve the simultaneous or sequential markers.
 
 ```
-c. clause chain, with the nominalizer -na
+c. subordinate clause, with the nominalizer -na
    Isu      sɨadamɨ  i=bisabi-na        wadzi-mia-hu
    DEM.NOM  girl     1SG.GEN=like-NMLZ  hide-go-PFV
    ‘The girl that I like ran away.’ (Toosarvandani 2016: 854)
 
-d. subordinated clause, with the sequential marker -si
+d. subordinate clause, with the sequential marker -si
    *Isu      sɨadamɨ  i=bisabi-si       wadzi-mia-hu
    DEM.NOM  girl     1SG.GEN=like-SEQ  hide-go-PFV
    (Toosarvandani 2016: 854)
@@ -7079,7 +7129,7 @@ go to the bank of the lake, open the suitcase, take out the bottles,
 put them in a row, fill them with water, 
 and put them back in the suitcase.’ (Džanmavov 1967:234)
 ```
-Kumyk is coded 1.
+Kumyk marks medial clauses with the CVB suffix _-yp_ (or variant _-üp_). Each of the predicates marked with this suffix lack tense marking, and are interpreted with the tense category marked on the final verb. This language expresses a sequence of events with a series of reduced clauses that are dependent on the grammatical features specified in a single fully inflected clause for interpretation. Kumyk is coded 1.
 
 ## Further reading
 Dooley, Robert A. 2010. Exploring clause chaining. *SIL Electronic Working Papers* 2010-001. Dallas: SIL International.
@@ -8032,7 +8082,7 @@ GB177,"Can the verb carry a marker of animacy of argument, unrelated to any gend
 Does the animacy of an argument ([S or A or P](https://github.com/grambank/grambank/wiki/Core-arguments-(S,-A-and-P))) determine the form or presence of an [index](https://github.com/grambank/grambank/wiki/Indexing-vs.-pronouns) on the verb. This system of marking needs to be unrelated to or not reducible to the [gender/noun class system](https://github.com/grambank/grambank/wiki/Noun-Classes-and-Classifiers) as revealed by [agreement](https://github.com/grambank/grambank/wiki/Agreement) in the noun phrase.
 
 ## Procedure
-1. Check the section on verbal morphology to identify whether the language has any indexing at all. Code 0 if does not.
+1. Check the section on verbal morphology to identify whether the language has any indexing at all. Code 0 if it does not.
 2. If there is indexing, consider which categories are indexed on the verb. Code 0 if only person and/or number and/or clusivity are indexed and the marking is identical for both animate and inanimate referents.
 3. If there is indexing of the animacy feature or animacy conditions the use of allomorphs (including zero marking) for number or person marking, this is potentially a 1. Consider the agreement features within an NP and the respective gender/noun classes. Code 1 if the sets of referents identified on the basis of verbal indexing is not identical to the sets of referents identified on the basis of agreement with an NP. 
 4. Code 0 if the same gender/noun class as the ones identified on the basis of agreement within an NP are found in the indexing system.
@@ -8416,8 +8466,8 @@ Adnominal property words are also known as ""adjectives"", in particular in thos
 
 1.  Code 1 if most adnominal property words are placed before nouns.
 2.  Code 2 if most adnominal property words are placed after nouns.	
-3.  Code 3 if adjectives can be placed before or after nouns, either because both orders are possible or because some adjectives precede and some adjectives follow the noun.
-4.  Code 0 if adnominal property words cannot be used attributively.
+3.  Code 3 if adnominal property words can be placed before or after nouns, either because both orders are possible or because some adjectives precede and some follow the noun.
+4.  Code 0 if property words cannot be used attributively.
 5.  Do not code 0 if property words are a sub-class of verbs: code 1, 2 or 3.
 
 ## Examples
@@ -8612,7 +8662,9 @@ Hannah J. Haynie
 GB198,Can an adnominal numeral agree with the noun in gender/noun class?,"## Can an adnominal numeral agree with the noun in noun class/gender?
 
 ## Summary
-For this feature, we are interested in [noun classes](https://github.com/grambank/grambank/wiki/Noun-classes-and-classifiers) (classes which nouns belong to based upon properties such as gender, animacy, or shape and can be identified through [agreement](https://github.com/grambank/grambank/wiki/Agreement) with a modifier). We are not looking at noun classifiers ([GB057](https://github.com/grambank/Grambank/wiki/GB057)) (classifiers classify the noun and occur independently from other elements). This feature asks whether adnominal numerals show agreement with the gender of nouns they modify. This system of agreement should be [productive](https://github.com/grambank/grambank/wiki/Productivity).
+For this feature, we are interested in [gender/noun classes](https://github.com/grambank/grambank/wiki/Noun-classes-and-classifiers) (classes which nouns belong to based upon properties such as gender, animacy, or shape and can be identified through [agreement](https://github.com/grambank/grambank/wiki/Agreement) with a modifier). We are not looking at noun classifiers ([GB057](https://github.com/grambank/Grambank/wiki/GB057)) (classifiers classify the noun and occur independently from other elements). This feature asks whether adnominal numerals show agreement with the gender of nouns they modify. This system of agreement should be [productive](https://github.com/grambank/grambank/wiki/Productivity).
+
+If only the numeral ""one"" shows this agreement, that is sufficient.
 
 ## Procedure
 1. Code 1 if adnominal numerals agree in gender/noun class with nouns in at least one context (e.g. in the plural).
@@ -8832,7 +8884,7 @@ Hedvig Skirgård
 GB252,Can predicative possession be expressed with an S-like possessum and a locative-coded possessor?,"## Can predicative possession be expressed with an S-like possessum and a locative-coded possessor?
 
 ## Summary
-This question concerns predicative possession, i.e. clauses that express an ownership relation between a possessor and possessum. This feature is concerned with clauses where the possessum is the subject of an existential/locative predicate and the possessor is in an oblique form marked by an element meaning ‘at/in/on’ (e.g. *the car is on me* to mean ‘I have a car.’ or ‘The car is mine.’). The possessor-NP need not be overtly marked for location, it can be expressed in the verb itself, e.g. with a locative extension.
+This question concerns predicative possession, i.e. clauses that express an ownership relation between a possessor and possessum. This feature is concerned with clauses where the possessum is the subject of an existential/locative predicate and the possessor is in an oblique form marked by an element meaning ‘at/in/on’ (e.g. *the car is on me* to mean ‘I have a car.’ or ‘The car is mine.’). The possessor-NP need not be overtly marked for location, it can be expressed in the verb itself, e.g. with a locative extension. It is necessary for the construction that the possessor is not the subject.
 
 This type of predicative possession construction is known as the ‘locational possessive’ in the work of Stassen (2001, 2013).
 
@@ -9115,7 +9167,7 @@ Jay Latarche and Jeremy Collins
 GB262,Is there a clause-initial polar interrogative particle?,"## Is there a clause-initial polar interrogative particle?
 
 ## Summary
-In this feature, we are looking for a polar interrogative [particle](https://github.com/grambank/grambank/wiki/Particles) that appears at the beginning of the clause. The particle should be dedicated to marking questions that ask for the equivalent of an affirmative or negative answer (as opposed to content questions).
+In this feature, we are looking for a polar interrogative [particle](https://github.com/grambank/grambank/wiki/Particles) that appears at the beginning of the clause. It is acceptable for a polar interrogative particle to appear in polar interrogatives and content questions, but the polar interrogative particle must be dedicated to marking questions that ask for the equivalent of an affirmative or negative answer (as opposed to content questions).
 
 Dryer (2013) distinguishes **neutral** questions from **leading** questions in the paragraph quoted below. This feature in Grambank concerns neutral questions:
 
@@ -9679,7 +9731,9 @@ GB286,Can polar interrogation be indicated by overt verbal morphology only?,"## 
 
 ## Summary
 
-In order for a construction to trigger 1, there should be no other marker in the clause that signals polar interrogation, not even lack of finiteness compared to the affirmative. This excludes intonation, which may be different between questions and declarative statements.
+In order for a construction to trigger 1, there should be no other **marker** in the clause that signals polar interrogation, not even lack of finiteness compared to the affirmative. This excludes intonation, which may be different between questions and declarative statements. Please note, GB286 need not need be the only polar interrogative **construction** in the language to code 1. It may still be possible to code 1 for other constructions alongside this one, such as [GB285,](https://github.com/grambank/grambank/wiki/GB285/) [GB262,](https://github.com/grambank/grambank/wiki/GB262/) [GB263,](https://github.com/grambank/grambank/wiki/GB263/) [GB264.](https://github.com/grambank/grambank/wiki/GB264/)
+
+
 
 ## Procedure
 
@@ -9730,8 +9784,8 @@ This feature deals with the presence or absence of a construction where the only
 
 ## Procedure
 
-1. Code 1 if there is lexical or grammatical tone in the language,
-2. And one of the words in a declarative sentence can change its tone to change the sentence into a polar question.
+1) Determine if there is lexical or grammatical tone in the language (other than for polar interrogation)
+2) if so, and if one of the words in a declarative sentence can change its tone to change the sentence into a polar question then code 1.
 
 ## Examples
 
@@ -10092,8 +10146,8 @@ An example: in ***We Harald** talked* ‘Harald and I talked.’, the free 1PL p
 1. Code 1 if coordination can be denoted by a non-singular superset (free or bound) and a singular form (a noun, or various word classes) that is being included in the larger group.
 2. Code 1 if there are inclusory constructions which are marked by comitative markers. 
 4. Code 1 if there is a non-singular full noun inclusory form rather than a pronoun, and mention this in the comments. 
-5. Code 0 if the author does not discuss inclusory constructions, and/or if it can be determined absent from the data.
-6. Code ? if you are unable to determine from the grammar or examples whether there is an inclusory construction.
+5. Code ? if you are unable to determine from the grammar or example data whether there is an inclusory construction.
+6. Code 0 only if within a very extensive grammar the author does not discuss inclusory constructions and if it can be determined absent from a large set of example data.
 
 ## Examples
 
@@ -10534,9 +10588,9 @@ a. yek-i     pas     az    digar-i
    one-INDF  after   from  other-INDF
    ‘one after another’ (Windfuhr & Perry 2009: 437)
 
-b. bā       ham       raft-im
-   with     together  go.PST-1PL
-   ‘We went together.’ (Windfuhr & Perry 2009: 437)
+b. az       ham         jodā      šod-and|
+   from     each.other  separated become.PST-3PL
+   ‘They parted.’, lit. 'They became separate from each other.' (Windfuhr & Perry 2009: 437)
 ```
 
 **Bargam** (ISO 639-3: mlp, Glottolog: barg1252)
@@ -10677,6 +10731,8 @@ GB312,Is there overt morphological marking on the verb dedicated to mood?,"## Is
 ## Summary
 This question is concerned with [phonologically bound](https://github.com/grambank/grambank/wiki/Wordhood-and-phonological-boundness-or-independence) marking on the verb that indicates grammatical mood. Grammatical mood is concerned with (1) the relationship between an event/state/action expressed in a clause and its actualization in reality (e.g. realis or irrealis) and/or (2) the speaker’s attitude towards the actualization of this event/state/action. This feature covers all grammatical moods, including declarative. The mood marker may be polysemous with other markers.
 
+There are instances where TAM can be expressed by a combination of an affix and auxiliary or particle. For example, some grammarians state that a mood is expressed by a certain form on the verbal root and an auxiliary. If this is a [productive](https://github.com/grambank/grambank/wiki/Productivity) and [obligatory](https://github.com/grambank/grambank/wiki/Obligatoriness) way of expressing mood then such a construction triggers 1 for both this feature (GB312) and the features on free-standing mood marking ([GB119](https://github.com/grambank/Grambank/wiki/GB119) and/or [GB519](https://github.com/grambank/Grambank/wiki/GB519)). If not all parts of the discontinuous marking are necessary for expressing a mood, then only consider the marking that is obligatory.
+
 While negation or interrogation can be considered grammatical moods, they are not covered by this feature.
 
 ## Procedure
@@ -10755,7 +10811,7 @@ Possession with a pronominal possessor (first person):
 ```
 my book (*I’s book)  
 a friend of mine (*a friend of I’s)
-````
+```
 
 English uses suppletive forms for these first person possessive pronouns, rather than using the morphological marking pattern that is used for possessive nouns. These pronouns (*my*/*mine*) are not identical to the non-possessive pronouns used to express core arguments. English is coded 1.
 
@@ -11297,7 +11353,9 @@ Hedvig Skirgård
 GB321,Is there a large class of nouns whose gender/noun class is not phonologically or semantically predictable?,"## Is there a large class of nouns whose noun class/gender is not phonologically or semantically predictable?
 
 ## Summary
-A noun class/gender system categorizes nouns for the purposes of grammatical [agreement](https://github.com/grambank/grambank/wiki/Agreement) with other constituents in the noun phrase or other inflectional morphology. See the [classification wiki page](https://github.com/grambank/grambank/wiki/Noun-Classes-and-Classifiers) for more information on our definition of noun class/gender. Noun class/gender assignment may be based on one or several factors. This feature asks whether there is a large or open class of nouns whose gender/noun class assignment is not predictable based on phonology or semantics. In other words, such a class will appear to be assigned arbitrarily.
+A noun class/gender system categorizes nouns for the purposes of grammatical [agreement](https://github.com/grambank/grambank/wiki/Agreement) with other constituents in the noun phrase or other inflectional morphology. See the [classification wiki page](https://github.com/grambank/grambank/wiki/Noun-Classes-and-Classifiers) for more information on our definition of noun class/gender. Noun class/gender assignment may be based on one or several factors. This feature asks whether the noun class/gender system of a language includes a large or open class of nouns whose assignment to that class is not predictable based on phonology or semantics. In other words, such a class will appear to be assigned arbitrarily.
+
+Keep in mind that it is common for noun classes to include members that are not entirely predictable. Noun classes that are generally organized around a semantic or phonological property may also include some idiosyncratic members. The arbitrary assignment of some nouns to otherwise semantically or phonologically defined classes is **not** what this feature targets.
 
 ## Procedure
 1. If there is [a system of nominal classification](https://github.com/grambank/grambank/wiki/Noun-Classes-and-Classifiers) where some markers vary based on the category of the noun,
@@ -11843,7 +11901,7 @@ Head, June. 2011. *A grammar of Umbu-Ungu.* Ukarumpa: Ms., SIL.
 
 Jakob Lesage
 ",,JLE,GB328 RELPre,,,,,0,
-GB329,Are there internally-headed relative clauses?,"## Are there internally-headed relative clauses?
+GB329,Are there internally-headed relative clauses?,"## Are there internally-headed relative clauses that are not correlative relative clauses?
 
 ## Summary
 
@@ -12103,7 +12161,7 @@ GB333,Is there a decimal numeral system?,"## Is there a decimal numeral system?
 
 ## Summary
 
-Are some multiples of 10 starting from 30 formed with a decimal base? e.g. 30 = 3x10, 40 = 4x10, etc. Or are expressions between these decimals (30-40, 40-50 etc.) formed as 30+1, 30+2, .., 30+9 etc.? The coding should reflect the earliest attested (i.e. not merely inferred) stage so if a pre-borrowing stage is attested, this should be coded.
+Are any multiples of 10 starting from 30 formed with a decimal base? e.g. 30 = 3x10, 40 = 4x10, etc. Or are expressions between these decimals (30-40, 40-50 etc.) formed as 30+1, 30+2, .., 30+9 etc.? The coding should reflect the earliest attested (i.e. not merely inferred) stage so if a pre-borrowing stage is attested, this should be coded.
 
 ## Procedure
 
@@ -12206,7 +12264,7 @@ Jakob Lesage
 GB334,Is there synchronic evidence for any element of a quinary numeral system?,"## Is there synchronic evidence for any element of a quinary numeral system?
 
 ## Summary
-Are some numerals above 5 formed with 5 as a base? For example, 6 = 5+1, 7 = 5+2, 8 = 5+3, 9 = 5+4, 11 = 5+5+1, etc.? One example of this is enough for a 1, except if it can be derived from an already existing non-quinary system (e.g. if 10 = 5x2, but other numerals are also formed by doubling, e.g. 4 = 2x2 and 6 = 3x2, this does not count).
+Are any numerals above 5 formed with 5 as a base? For example, 6 = 5+1, 7 = 5+2, 8 = 5+3, 9 = 5+4, 11 = 5+5+1, etc.? One example of this is enough for a 1, except if it can be derived from an already existing non-quinary system (e.g. if 10 = 5x2, but other numerals are also formed by doubling, e.g. 4 = 2x2 and 6 = 3x2, this does not count).
 
 ## Procedure
 
@@ -12302,7 +12360,7 @@ GB335,Is there synchronic evidence for any element of a vigesimal numeral system
 
 ## Summary
 
-Are some numerals for multiples of 20 expressed using a base-20 system (e.g. 40 = 2x20; 60 = 3x20; 80 = 4x20; 120 = 6x20, etc.)? Or are numerals in between these multiples of 20 formed as 20+1, 20+2, .., 20+19; 40+1, 40+2, .., 40+19, etc.?
+Are any numerals for multiples of 20 expressed using a base-20 system (e.g. 40 = 2x20; 60 = 3x20; 80 = 4x20; 120 = 6x20, etc.)? Or are numerals in between these multiples of 20 formed as 20+1, 20+2, .., 20+11, .., 20+19; 40+1, 40+2, .., 40+11, .., 40+19, etc.? Note that a source should mention numerals higher than 29 to be able to trigger a 1 for this feature.
 
 ## Procedure
 
@@ -12313,7 +12371,7 @@ Are some numerals for multiples of 20 expressed using a base-20 system (e.g. 40 
 5. Code 1 if you find a vigesimal numeral system in the numerals presented in a grammar or a dictionary.
 6. Code 0 if a source mentions that there is no vigesimal numeral system or you can verify this in the presented data.
 7. Code 0 if a language has a minimal numeral system that does not contain numerals beyond 20.
-8. Code ? if the source does not contain enough data (e.g. not enough numerals) to verify whether or not there is a vigesimal numeral system. 
+8. Code ? if the source does not contain enough data (e.g. not many numerals beyond 29) to verify whether or not there is a vigesimal numeral system. 
 
 ## Examples
 
@@ -12459,12 +12517,12 @@ Jakob Lesage
 GB400,"Are all person categories neutralized in some voice, tense, aspect, mood and/or negation?","## Are all person categories neutralized in some voice, tense, aspect, mood and/or negation?
 
 ## Summary
-This question concerns languages which can [index](https://github.com/grambank/grambank/wiki/Indexing-vs.-pronouns) the person of an [argument (S, A or P)](https://github.com/grambank/grambank/wiki/Core-arguments-(S,-A-and-P)) somewhere in the clause (i.e. either on the verb or by clitics). The question asks whether person categories are not distinguished under certain circumstances. In order for there to be neutralization, there needs to be something to ‘neutralize’ to begin with, i.e. languages without person indexing should be coded 0 for this feature. All person categories should be neutralized for the language to be coded as 1. Do not consider [phonologically independent](https://github.com/grambank/grambank/wiki/Wordhood-and-phonological-boundness-or-independence) pronouns for this question and ignore imperative clauses. Consider only independent clauses.
+This question concerns languages which can [index](https://github.com/grambank/grambank/wiki/Indexing-vs.-pronouns) the person of an [argument (S, A or P)](https://github.com/grambank/grambank/wiki/Core-arguments-(S,-A-and-P)) somewhere in the clause (i.e. either on the verb or by clitics). The question asks whether person categories are not distinguished under certain circumstances. In order for there to be neutralization, there needs to be something to ‘neutralize’ to begin with, i.e. languages without person indexing should be coded 0 for this feature. All person categories should be neutralized for the language to be coded as 1. Do not consider [phonologically independent](https://github.com/grambank/grambank/wiki/Wordhood-and-phonological-boundness-or-independence) pronouns for this question. Consider only independent clauses. Consider only the moods which allow all person categories of the language to be expressed (that is, ignore imperatives, jussives, etc.)
 
 ## Procedure
 1. Consider the section in the grammar that deals with verbal morphology, specifically the sections on (pronominal) agreement or argument cross-referencing.
 2. If no argument is indexed on verbs, code 0.
-3. If some arguments are indexed, check if there are any mentions in the sections on TAM, voice or negation of these markers being deleted under the respective circumstances. Ignore imperative clauses and consider only independent clauses.
+3. If some arguments are indexed, check if there are any mentions in the sections on TAM, voice or negation of these markers being deleted under the respective circumstances. Ignore clause types which are incompatible with some person categories, e.g. imperatives. Consider only independent clauses.
 5. If the indexes are deleted, code 1 and add a comment on the conditions.
 6. If they are never deleted, code 0.
 
@@ -12527,9 +12585,10 @@ GB401,Is there a class of patient-labile verbs?,"## Is there a class of patient-
 ## Summary
 
 The term ‘labileʼ is the most commonly used label for verbs which can be used transitively or intransitively without any formal change.
-A distinction is made between [P](https://github.com/grambank/grambank/wiki/Core-arguments-(S,-A-and-P))-lability (or patient-preserving lability, as in _I broke **the stick**_[P] / _**The stick** broke_) and [A](https://github.com/grambank/grambank/wiki/Core-arguments-(S,-A-and-P))-lability (or agent-preserving lability, as in _**John**_[A] _drinks tea / **John** drinks_). In case of P-lability, the P argument is preserved in the intransitive construction. This question asks only about P-labile verbs. 
-Semantically, two things can happen with P-labile verbs. 
-In case of (a) argument structure modifying P-lability, an otherwise transitive verb is used in the intransitive construction encoding an argument structure from which the A argument of the transitive construction is absent. In case of (b) less common argument structure preserving P-lability, the verb in its intransitive use implies the same participants with the same roles as in its transitive use, but in the intransitive use, the A argument is not expressed and is interpreted as non-specific.
+A distinction is made between patient lability, more commonly referred to as [P](https://github.com/grambank/grambank/wiki/Core-arguments-(S,-A-and-P))-lability, and agent lability or [A](https://github.com/grambank/grambank/wiki/Core-arguments-(S,-A-and-P))-lability.
+P-lability stands for patient-preserving lability, that is, the P argument is preserved in the intransitive construction, as in _I broke **the stick**_[P] / _**The stick** broke_. A-lability stands for agent-preserving lability, that is the A argument is preserved in the intransitive construction, as in _**John**_[A] _drinks tea / **John** drinks_. 
+
+This question asks only about P-labile verbs. Semantically, two things can happen with P-labile verbs. In case of (a) argument structure modifying P-lability, an otherwise transitive verb is used in the intransitive construction encoding an argument structure from which the A argument of the transitive construction is absent. In case of (b) less common argument structure preserving P-lability, the verb in its intransitive use implies the same participants with the same roles as in its transitive use, but in the intransitive use, the A argument is not expressed and is interpreted as non-specific.
 
 ## Procedure
 1. Search for the terms ‘labile’, ‘lability’, ‘ambitransitive’ and ‘semitransitive’ in the description. If these terms are not mentioned, look up the sections on valency and transitivity in the description.
@@ -12554,7 +12613,7 @@ In English, some verbs can be used transitively, as in (1) or intransitively, as
 (a) The glass broke.
 (b) The ice melted.
 (a) The house burnt down.
-````
+```
 
 **Awara** (ISO 639-3: awx, Glottolog: awar1248)
 
@@ -12826,7 +12885,7 @@ e. ka ‘1SG’ as an A argument
    ka   chem  chept-wa-ŋ=na.
    1SG  song  write-NPST[3.P]-1SG.A=NMLZ.SG
    ‘I will write a song.’ (Schackow 2015: 121)
-````
+```
 
 ## Further reading
 
@@ -12858,7 +12917,7 @@ GB410,Is there any neutral alignment of flagging?,"## Is there any neutral align
 
 ## Summary
 Are [S, A, and P](https://github.com/grambank/grambank/wiki/Core-arguments-(S,-A-and-P)) arguments flagged identically (i.e. are they neutrally aligned)? Flagging covers any kind of argument marking on the argument itself (e.g. by case or adposition marking). The marking can be phonologically free or bound. 
-In case of split flagging systems, reply with 1 if any of the subsystems (e.g. only nouns or only pronouns, or a particular tense or person) shows neutral alignment. Reply with 1 if none of the three arguments is overtly flagged (i.e. if all three arguments are zero-marked). Note that although alignment types are occasionally associated with entire languages (e.g. when one says that ""Dyirbal is an ergative language""), they in fact apply only to individual constructions. This question asks only about the alignment of flagging, the alignment of [indexing](https://github.com/grambank/grambank/wiki/Indexing-vs.-pronouns) or of any other construction is irrelevant for this question.
+Reply with 1 if none of the three arguments is overtly flagged (i.e. if all three arguments are zero-marked). In case of differential flagging systems, reply with 1 if any of the subsystems (e.g. a particular tense) shows neutral alignment. Reply with 1 if only nouns or only pronouns shows neutral alignment. Reply with 1 also if some or just one personal pronoun shows neutral alignment. Reply with 1 if a substantial class of nouns shows neutral alignment. Note that although alignment types are occasionally associated with entire languages (e.g. when one says that ""Dyirbal is an ergative language""), they in fact apply only to individual constructions. This question asks only about the alignment of flagging, the alignment of [indexing](https://github.com/grambank/grambank/wiki/Indexing-vs.-pronouns) or of any other construction is irrelevant for this question.
 
 ## Procedure
 1. Consider the section in the grammar that deals with nominal morphology, argument marking and/or basic clause structure. If no such section exists, consider examples of transitive and intransitive clauses, identify overt arguments in different roles (S, A, and P) and study their marking.
@@ -12921,7 +12980,7 @@ e. ka ‘1SG’ as an A argument
    ka   chem  chept-wa-ŋ=na.
    1SG  song  write-NPST[3.P]-1SG.A=NMLZ.SG
    ‘I will write a song.’ (Schackow 2015: 121)
-````
+```
 
 **Makasae-Makalero** (ISO 639-3: mkz, Glottolog: maka1316)
 
@@ -13328,6 +13387,8 @@ GB519,"Can mood be marked by a non-inflecting word (""auxiliary particle"")?","#
 ## Summary
 This feature covers all grammatical moods (the relationship between the referred event/state/action and reality and/or speakers' attitude toward what they are saying) and aims to capture [phonologically free](https://github.com/grambank/grambank/wiki/Wordhood-and-phonological-boundness-or-independence) elements that do not inflect (i.e. do not change form depending on person, number and other categories of the core arguments). These markers are often described as ‘[particles](https://github.com/grambank/grambank/wiki/Particles)' in the literature, but are also analyzed under other labels. We are interested in grammatical marking, i.e. [dedicated](https://github.com/grambank/grambank/wiki/Dedicated-marking), [productive](https://github.com/grambank/grambank/wiki/Productivity) and [obligatory](https://github.com/grambank/grambank/wiki/Obligatoriness) marking. 
 
+There are instances where TAM can be expressed by a combination of an affix and auxiliary or particle. For example, some grammarians state that a mood is expressed by a certain form on the verbal root and an auxiliary. If this is a [productive](https://github.com/grambank/grambank/wiki/Productivity) and [obligatory](https://github.com/grambank/grambank/wiki/Obligatoriness) way of expressing mood then such a construction triggers 1 for both this feature (GB519) and the feature on bound mood marking ([GB312](https://github.com/grambank/Grambank/wiki/GB312)). If not all parts of the discontinuous marking are necessary for expressing a mood, then only consider the marking that is obligatory.
+
 While negation or interrogation can be considered as grammatical moods, they are not included in this feature.
 
 ## Procedure
@@ -13391,6 +13452,8 @@ GB520,"Can aspect be marked by a non-inflecting word (""auxiliary particle"")?",
 ## Summary
 This feature covers all grammatical aspects (internal temporal constitution of event/action/state) and aims to capture [phonologically free](https://github.com/grambank/grambank/wiki/Wordhood-and-phonological-boundness-or-independence) elements that do not inflect (i.e. change form depending on person, number and other categories of the core arguments).  These markers are often described as ‘[particles](https://github.com/grambank/grambank/wiki/Particles)’ in the literature, but are also analyzed under other labels. We are interested in grammatical marking, i.e. [dedicated](https://github.com/grambank/grambank/wiki/Dedicated-marking), [productive](https://github.com/grambank/grambank/wiki/Productivity) and [obligatory](https://github.com/grambank/grambank/wiki/Obligatoriness) marking.  
 
+There are instances where TAM can be expressed by a combination of an affix and auxiliary or particle. For example, some grammarians state that an aspect is expressed by a certain form on the verbal root and an auxiliary. If this is a [productive](https://github.com/grambank/grambank/wiki/Productivity) and [obligatory](https://github.com/grambank/grambank/wiki/Obligatoriness) way of expressing mood then such a construction triggers 1 for both this feature (GB520) and the feature on free-standing mood marking ([GB086](https://github.com/grambank/Grambank/wiki/GB086)). If not all parts of the discontinuous marking are necessary for expressing the aspect, then only consider the marking that is obligatory.
+
 ## Procedure
 1. Look up the section on aspect marking in the grammatical description.
 2. Consider all marking of aspect, e.g. not only perfective.
@@ -13447,6 +13510,8 @@ GB521,"Can tense be marked by a non-inflecting word (""auxiliary particle"")?","
 
 ## Summary
 This feature covers all tenses (present, past and future) and aims to capture [phonologically free](https://github.com/grambank/grambank/wiki/Wordhood-and-phonological-boundness-or-independence) elements that do no inflect (i.e. do not change form depending on person, number and other categories of the core arguments). These markers are often described as ‘[particles](https://github.com/grambank/grambank/wiki/Particles)’ in the literature, but are also analyzed under other labels. We are interested in grammatical marking, i.e. [dedicated](https://github.com/grambank/grambank/wiki/Dedicated-marking), [productive](https://github.com/grambank/grambank/wiki/Productivity) and [obligatory](https://github.com/grambank/grambank/wiki/Obligatoriness) marking. This means that words such as ‘tomorrow’ and ‘yesterday’ do not qualify as productively marking future and hesternal past.
+
+There are instances where TAM can be expressed by a combination of an affix and auxiliary or particle. For example, some grammarians state that tense is expressed by a certain form on the verbal root and an auxiliary. If this is a [productive](https://github.com/grambank/grambank/wiki/Productivity) and [obligatory](https://github.com/grambank/grambank/wiki/Obligatoriness) way of expressing mood then such a construction triggers 1 for both this feature (GB521) and the features on bound mood marking ([GB082](https://github.com/grambank/Grambank/wiki/GB082)/[GB083](https://github.com/grambank/Grambank/wiki/GB083)/[GB084](https://github.com/grambank/Grambank/wiki/GB084)). If not all parts of the discontinuous marking are necessary for expressing a tense, then only consider the marking that is obligatory.
 
 ## Procedure
 1. Look up the sections on tense marking in the grammatical description.
@@ -13518,8 +13583,9 @@ Here ‘omitted’ means phonologically unexpressed (we do not intend for this f
 Pro-drop is not mutually exclusive with [indexing](https://github.com/grambank/grambank/wiki/Indexing-vs.-pronouns) of the S or A argument on the verb. If, in the absence of an independent pronoun or nominal S or A, there is indexing of this argument on the verb, you may still code 1.
 
 ## Procedure
-1. If the S or A argument may be omitted when its referent can be inferred from context, code 1.
-2. If the S or A argument is always phonologically expressed in a noun phrase or phonologically independent pronoun, code 0.
+1. If the S or A argument may be omitted in a pragmatically unmarked main clause when its referent can be inferred from context, code 1.
+2. If the S or A argument is always phonologically expressed by a noun phrase or phonologically independent pronoun in a pragmatically unmarked main clause, code 0.
+3. If the S or A argument may be omitted in a pragmatically unmarked main clause when its referent can be inferred from context, but only if that referent represents a certain person/number category, code 1 and provide a comment that describes under what condition the S or A argument may be omitted.
 
 ## Examples
 **Czech** (ISO 639-3: ces, Glottolog: czec1258)
