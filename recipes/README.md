@@ -35,114 +35,192 @@ The typical usage with the Grambank data - a [CLDF structure dataset](https://gi
 3. and finally pipe the result to a new CSV file.
 
 ```bash
-$ csvjoin -c Language_ID,ID values.csv languages.csv \
-| csvjoin -c Parameter_ID,ID - parameters.csv > grambank.csv
+$ csvjoin -y 0 -c Language_ID,ID values.csv languages.csv \
+| csvjoin -y 0 -c Parameter_ID,ID - parameters.csv > grambank.csv
 ```
 
 The merged file can then be inspected, e.g. using `csvstat` (although this may max out the resources of
 some machines):
 ```bash
-$ csvstat grambank.csv 
+$ csvstat -y 0 grambank.csv 
   1. "ID"
-	Type of data:          Text
-	Contains null values:  False
-	Unique values:         144683
-	...
-  2. "Language_ID"
-	Type of data:          Text
-	Contains null values:  False
-	Unique values:         993
-	...
-  3. "Parameter_ID"
-	Type of data:          Text
-	Contains null values:  False
-	Unique values:         202
-	...
-  4. "Value"
-	Type of data:          Text
-	Contains null values:  False
-	Unique values:         5
-	Longest value:         1 characters
-	Most common values:    0 (79277x)
-	                       1 (41828x)
-	                       ? (20929x)
-	                       2 (2027x)
-	                       3 (622x)
-  5. "Comment"
-	Type of data:          Text
-	...
-  6. "Source"
-	Type of data:          Text
-  7. "Name"
-	Type of data:          Text
-	Contains null values:  False
-	Unique values:         993
-	Longest value:         37 characters
-	Most common values:    Javanese (199x)
-	                       Sundanese (199x)
-  8. "Latitude"
-	Type of data:          Number
-	Contains null values:  True (excluded from calculations)
-	Smallest value:        -54
-	Largest value:         70,669
-	Mean:                  4,666
-	Median:                5,383
-	StDev:                 17,976
-	Most common values:    None (4056x)
-  9. "Longitude"
-	Type of data:          Number
-	Contains null values:  True (excluded from calculations)
-	Smallest value:        -178,137
-	Largest value:         179,198
-	Mean:                  47,185
-	Median:                31,205
-	StDev:                 81,143
-	Most common values:    None (4056x)
- 10. "glottocode"
-	Type of data:          Text
-	Contains null values:  False
-	Unique values:         993
-	...
- 11. "iso639P3code"
-	Type of data:          Text
-	Contains null values:  True (excluded from calculations)
-	Unique values:         949
-	Longest value:         3 characters
-	...
- 12. "macroarea"
-	Type of data:          Text
-	Contains null values:  True (excluded from calculations)
-	Unique values:         7
-	Most common values:    africa (54848x)
-	                       pacific (34424x)
-	                       eurasia (18560x)
-	                       southamerica (14489x)
-	                       australia (12672x)
- 13. "family"
-	Type of data:          Text
-	Contains null values:  True (excluded from calculations)
-	Unique values:         133
-	Longest value:         24 characters
-	Most common values:    Atlantic-Congo (24375x)
-	                       Austronesian (21435x)
-	                       Afro-Asiatic (12610x)
-	                       Pama-Nyungan (7453x)
-	                       None (5752x)
- 14. "Name2"
-	Type of data:          Text
-	Contains null values:  False
-	Unique values:         202
-  ...
- 15. "Domain"
-	Type of data:          Text
-	Contains null values:  False
-	Most common values:    1:present;0:absent;?:Not known (139770x)
-	                       1:Dem-N;2:N-Dem;3:both.;?:Not known (915x)
-	                       1:Num-N;2:N-Num;3:both.;?:Not known (913x)
-	                       1:SV;2:VS;3:both;?:Not known (910x)
-	                       1:Possessor-Possessed;2:Possessed-Possessor;3:both;?:Not known (884x)
 
-Row count: 144683
+        Type of data:          Text
+        Contains null values:  False
+        Unique values:         441663
+        ...
+  2. "Language_ID"
+
+        Type of data:          Text
+        Contains null values:  False
+        Unique values:         2467
+        Longest value:         8, characters
+        Most common values:    abad1241 (195x)
+        ...
+  3. "Parameter_ID"
+
+        Type of data:          Text
+        Contains null values:  False
+        Unique values:         195
+        Longest value:         5, characters
+        Most common values:    GB028 (2451x)
+        ...
+  4. "Value"
+
+        Type of data:          Text
+        Contains null values:  False
+        Unique values:         5
+        Longest value:         1, characters
+        Most common values:    0 (242782x)
+                               1 (112315x)
+                               ? (79638x)
+                               2 (5410x)
+                               3 (1518x)
+
+  5. "Code_ID"
+
+        Type of data:          Text
+        Contains null values:  True (excluded from calculations)
+        Unique values:         399
+        Longest value:         7, characters
+        Most common values:    None (79638x)
+                               GB197-0 (2143x)
+                               GB165-0 (2125x)
+                               GB043-0 (2117x)
+                               GB166-0 (2090x)
+
+  6. "Comment"
+
+        Type of data:          Text
+        Contains null values:  True (excluded from calculations)
+        Unique values:         46658
+        Longest value:         15.925, characters
+        ...
+  7. "Source"
+
+        Type of data:          Text
+        Contains null values:  True (excluded from calculations)
+        Unique values:         118282
+        Longest value:         485, characters
+        ...
+  ...
+ 10. "Name"
+        Type of data:          Text
+        Contains null values:  False
+        Unique values:         2467
+        Longest value:         49, characters
+        Most common values:    Abadi (195x)
+                               Mungbam (195x)
+                               Abé (195x)
+                               Abenlen Ayta (195x)
+                               Abipon (195x)
+
+ 11. "Macroarea"
+
+        Type of data:          Text
+        Contains null values:  True (excluded from calculations)
+        Unique values:         7
+        Longest value:         13, characters
+        Most common values:    Papunesia (131279x)
+                               Eurasia (106336x)
+                               Africa (98377x)
+                               North America (46153x)
+                               South America (37642x)
+
+ 12. "Latitude"
+
+        Type of data:          Number
+        Contains null values:  True (excluded from calculations)
+        Unique values:         2427
+        Smallest value:        -55,275
+        Largest value:         73,135
+        Sum:                   3.818.882,19
+        Mean:                  8,649
+        Median:                6,406
+        StDev:                 20,389
+        Most common values:    26,91 (780x)
+                               41, (585x)
+                               12,706 (585x)
+                               40, (585x)
+                               70,669 (564x)
+
+ 13. "Longitude"
+
+        Type of data:          Number
+        Contains null values:  True (excluded from calculations)
+        Unique values:         2432
+        Smallest value:        -178,137
+        Largest value:         179,198
+        Sum:                   23.806.340,186
+        Mean:                  53,915
+        Median:                81,36
+        StDev:                 86,854
+        Most common values:    98,94 (780x)
+                               79,952 (585x)
+                               130,914 (564x)
+                               94,689 (564x)
+                               125,499 (390x)
+
+ 14. "Glottocode"
+
+        Type of data:          Text
+        Contains null values:  False
+        Unique values:         2467
+        Longest value:         8, characters
+        Most common values:    abad1241 (195x)
+                               abar1238 (195x)
+                               abee1242 (195x)
+                               aben1249 (195x)
+                               abip1241 (195x)
+ ...
+ 17. "Family_name"
+
+        Type of data:          Text
+        Contains null values:  True (excluded from calculations)
+        Unique values:         216
+        Longest value:         24, characters
+        Most common values:    Austronesian (99805x)
+                               Atlantic-Congo (56719x)
+                               Sino-Tibetan (37924x)
+                               Afro-Asiatic (21105x)
+                               None (18223x)
+
+ 18. "Family_level_ID"
+
+        Type of data:          Text
+        Contains null values:  True (excluded from calculations)
+        Unique values:         216
+        Longest value:         8, characters
+        Most common values:    aust1307 (99805x)
+                               atla1278 (56719x)
+                               sino1245 (37924x)
+                               afro1255 (21105x)
+                               None (18223x)
+
+ 19. "Language_level_ID"
+
+        Type of data:          Text
+        Contains null values:  False
+        Unique values:         2430
+        Longest value:         8, characters
+        Most common values:    ngar1284 (1170x)
+                               lisu1250 (780x)
+                               miya1259 (756x)
+                               irul1243 (585x)
+                               even1260 (564x)
+
+ 20. "level"
+
+        Type of data:          Text
+        Contains null values:  False
+        Unique values:         3
+        Longest value:         8, characters
+        Most common values:    language (428872x)
+                               dialect (12682x)
+                               family (109x)
+ ...
+
+Row count: 441663
 ```
 
 <a id="pycldf"> </a>
@@ -155,7 +233,7 @@ can be used to read the Grambank data from within a Python program.
 ### Requirements
 
 To run the script, you need 
-- Python 2.7 or 3.4+
+- Python 3.7+
 - with `pycldf>=1.0`
 - an unzipped local download of the Grambank CLDF data.
 
@@ -172,29 +250,29 @@ $ python values_per_area.py StructureDataset-metadata.json GB020
 GB020: Are there definite or specific articles?
 
 Africa
-  Not known: 8.78%
-  absent: 41.95%
-  present: 49.27%
+  Not known: 8.86%
+  absent: 48.15%
+  present: 42.99%
 Australia
-  Not known: 12.95%
-  absent: 79.14%
-  present: 7.91%
+  Not known: 10.32%
+  absent: 76.19%
+  present: 13.49%
 Eurasia
-  Not known: 2.36%
-  absent: 75.59%
-  present: 22.05%
+  Not known: 4.81%
+  absent: 74.51%
+  present: 20.68%
 North America
-  Not known: 8.97%
-  absent: 38.46%
-  present: 52.56%
+  Not known: 10.74%
+  absent: 42.15%
+  present: 47.11%
 Papunesia
-  Not known: 5.17%
-  absent: 55.17%
-  present: 39.67%
+  Not known: 7.86%
+  absent: 50.62%
+  present: 41.52%
 South America
-  Not known: 22.60%
-  absent: 61.02%
-  present: 16.38%
+  Not known: 16.50%
+  absent: 63.11%
+  present: 20.39%
 ```
 
 <a id="sqlite"> </a>
@@ -207,7 +285,7 @@ facilitating further analysis and manipulation via SQL:
 $ time cldf createdb StructureDataset-metadata.json grambank.sqlite
 INFO    <cldf:v1.0:StructureDataset at .> loaded in grambank.sqlite
 
-real	0m12.584s
+real	0m27,241s
 ```
 
 While loading the dataset into SQLite isn't particularly quick, querying the database may be a lot quicker than the equivalent operations using Python. So the SQL query in 
@@ -215,26 +293,26 @@ While loading the dataset into SQLite isn't particularly quick, querying the dat
 less than 0.1 secs:
 ```bash
 $ time sqlite3 grambank.sqlite < values_per_area.sql
-Africa|0|41.9512195121951
-Africa|1|49.2682926829268
-Africa|?|8.78048780487805
-Australia|0|79.136690647482
-Australia|1|7.9136690647482
-Australia|?|12.9496402877698
-Eurasia|0|75.5905511811024
-Eurasia|1|22.0472440944882
-Eurasia|?|2.36220472440945
-North America|0|38.4615384615385
-North America|1|52.5641025641026
-North America|?|8.97435897435897
-Papunesia|0|55.1652892561983
-Papunesia|1|39.6694214876033
-Papunesia|?|5.16528925619835
-South America|0|61.0169491525424
-South America|1|16.3841807909604
-South America|?|22.5988700564972
+Africa|0|48.1549815498155
+Africa|1|42.9889298892989
+Africa|?|8.85608856088561
+Australia|0|76.1904761904762
+Australia|1|13.4920634920635
+Australia|?|10.3174603174603
+Eurasia|0|74.5098039215686
+Eurasia|1|20.6773618538324
+Eurasia|?|4.81283422459893
+North America|0|42.1487603305785
+North America|1|47.1074380165289
+North America|?|10.7438016528926
+Papunesia|0|50.6206896551724
+Papunesia|1|41.5172413793103
+Papunesia|?|7.86206896551724
+South America|0|63.1067961165049
+South America|1|20.3883495145631
+South America|?|16.504854368932
 
-real	0m0.110s
+real    0m0,050s
 ```
 
 <a id="r"> </a>
@@ -249,11 +327,11 @@ v <- read.csv("values.csv")
 parameter <- "GB020"
 param.filtered <- v[v$Parameter_ID == parameter,]
 
-lang.param.subset <- l[l$ID %in% param.filtered$Language_ID & l$macroarea != "",]
+lang.param.subset <- l[l$ID %in% param.filtered$Language_ID & l$Macroarea != "",]
 colnames(lang.param.subset)[1] <- "Language_ID"
 merged <- merge(lang.param.subset, v[v$Parameter_ID == parameter,], by = "Language_ID", all = TRUE)
 
-merged.df <- as.data.frame(table(merged$Value, merged$macroarea))
+merged.df <- as.data.frame(table(merged$Value, merged$Macroarea))
 merged.transformed <- transform(merged.df, Totals = ave(merged.df$Freq, merged.df$Var2, FUN=sum))
 merged.transformed <- transform(merged.transformed, perc = paste0(sprintf("%.2f", 100 * Freq/Totals),"%"))
 merged.transformed[merged.transformed$Freq != 0,]
@@ -262,24 +340,24 @@ merged.transformed[merged.transformed$Freq != 0,]
 The output should be as follows:
 
 ```bash
-6     0       africa  128    316 40.51%
-7     1       africa  166    316 52.53%
-10    ?       africa   22    316  6.96%
-11    0    australia   92    111 82.88%
-12    1    australia    9    111  8.11%
-15    ?    australia   10    111  9.01%
-16    0      eurasia   73    106 68.87%
-17    1      eurasia   28    106 26.42%
-20    ?      eurasia    5    106  4.72%
-21    0 northamerica   24     62 38.71%
-22    1 northamerica   34     62 54.84%
-25    ? northamerica    4     62  6.45%
-26    0      pacific  150    258 58.14%
-27    1      pacific  102    258 39.53%
-30    ?      pacific    6    258  2.33%
-31    0 southamerica   72    112 64.29%
-32    1 southamerica   20    112 17.86%
-35    ? southamerica   20    112 17.86%
+1     ?        Africa   48    542  8.86%
+2     0        Africa  261    542 48.15%
+3     1        Africa  233    542 42.99%
+4     ?     Australia   13    126 10.32%
+5     0     Australia   96    126 76.19%
+6     1     Australia   17    126 13.49%
+7     ?       Eurasia   27    561  4.81%
+8     0       Eurasia  418    561 74.51%
+9     1       Eurasia  116    561 20.68%
+10    ? North America   26    242 10.74%
+11    0 North America  102    242 42.15%
+12    1 North America  114    242 47.11%
+13    ?     Papunesia   57    725  7.86%
+14    0     Papunesia  367    725 50.62%
+15    1     Papunesia  301    725 41.52%
+16    ? South America   34    206 16.50%
+17    0 South America  130    206 63.11%
+18    1 South America   42    206 20.39%
 ```
 
 A simple plot that illustrates the individual distributions can be achieved by using the external library `lattice` (the following snippet assumes that you are still in the same `R` session as when the table above was created):
@@ -293,7 +371,7 @@ barchart(plot.this$Var1 ~ plot.this$perc | plot.this$Var2)
 
 The output should be as follows:
 
-![Barchart Feature Distribution](https://raw.githubusercontent.com/clld/recipes/master/Grambank/RPlotExample.png)
+![Barchart Feature Distribution](RPlotExample.png)
 
 
 _R_ has also been used to create the figures visualizing Grambank data for the Grambank paper.

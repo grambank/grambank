@@ -1,6 +1,5 @@
-from __future__ import print_function, unicode_literals
 from itertools import groupby
-from collections import Counter, defaultdict
+from collections import Counter
 
 from pycldf.dataset import Dataset
 
