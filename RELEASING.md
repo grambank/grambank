@@ -14,8 +14,12 @@
    pip install -e .[test]
    pytest
    ```
-6. Add/commit all changes, push branch to upstream and create a PR.
-7. Upon acceptance, merge PR, create GitHub release thereby creating a version tag.
-8. Make sure the release has been picked up by Zenodo. Edit the release description on GitHub,
+6. Recreate the language map:
+   ```shell
+   cldfbench cldfviz.map cldf --format jpg --pacific-centered --width 20 --height 10 --output map.jpg --no-legend --with-ocean
+   ```
+7. Add/commit all changes, push branch to upstream and create a PR.
+8. Upon acceptance, merge PR, create GitHub release thereby creating a version tag.
+9. Make sure the release has been picked up by Zenodo. Edit the release description on GitHub,
    adding the Zenodo citation info including DOI.
 
