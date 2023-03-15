@@ -129,6 +129,20 @@ class Dataset(BaseDataset):
         subprocess.check_call(
             'git -C {} submodule update --remote'.format(self.dir.resolve()), shell=True)
 
+    def cmd_readme(self, args):
+        super_readme = super().cmd_readme(args)
+        match = re.fullmatch(
+            r'(.*?)(\n## Description\n)(.*?)($|\n##.*)',
+            super_readme,
+            re.DOTALL)
+        before, header, old_desc, after = match.groups()
+        desc = [
+            '\n![Distribution of classifier languages](map.jpg)',
+            old_desc,
+            'For examples on how to use this datasets, refer to the',
+            '[`recipes` folder in this repository](./recipes/).']
+        return '{}{}{}{}'.format(before, header, '\n'.join(desc), after)
+
     def cmd_makecldf(self, args):
         grambank = Grambank(self.raw_dir / 'Grambank', wiki=self.raw_dir / 'grambank.wiki')
 

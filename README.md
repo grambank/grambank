@@ -11,6 +11,8 @@ If you use these data please cite
 
 ## Description
 
+![Distribution of classifier languages](map.jpg)
+
 
 Global dataset of structural linguistic features, part of Glottobank.
 
@@ -18,6 +20,8 @@ This dataset is licensed under a CC-BY-4.0 license
 
 Available online at https://grambank.clld.org
 
+For examples on how to use this datasets, refer to the
+[`recipes` folder in this repository](./recipes/).
 
 ## CLDF Datasets
 
