@@ -12,8 +12,8 @@ setup(
         ]
     },
     install_requires=[
-        'cldfbench>=1.4',
-        'pygrambank',
+        'cldfbench[glottolog]>=1.4',
+        'pygrambank>=2.1',
     ],
     extras_require={
         'test': [
