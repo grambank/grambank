@@ -5,6 +5,7 @@ Name | Role
 Hedvig Skirgård | author
 Hannah J. Haynie | author
 Harald Hammarström | author
+Russell Barlow | author
 Damián E. Blasi | author
 Jeremy Collins | author
 Jay Latarche | author
@@ -14,6 +15,12 @@ Alena Witzlack-Makarevich | author
 Michael Dunn | author
 Ger Reesink | author
 Ruth Singer | author
+Johannes Englisch | author
+Angela Chira | author
+Annemarie Verkerk | author
+Russell Dinnage | author
+Luke Maurits | author
+Sam Passmore | author
 Claire Bowern | author
 Patience Epps | author
 Jane Hill | author
@@ -28,12 +35,14 @@ Robert D. Borges | author
 Mitchell Browen | author
 Lennart Chevallier | author
 Swintha Danielsen | author
+Hugo de Vos | author
 Sinoël Dohlen | author
 Luise Dorenbusch | author
 Ella Dorn | author
 Marie Duhamel | author
 Farah El Haj Ali | author
 John Elliott | author
+Grace Ephraums | author
 Giada Falcone | author
 Anna-Maria Fehn | author
 Jana Fischer | author
@@ -41,6 +50,7 @@ Yustinus Ghanggo Ate | author
 Hannah Gibson | author
 Hans-Philipp Göbel | author
 Jemima A. Goodall | author
+Samuel Griggs | author
 Victoria Gruner | author
 Andrew Harvey | author
 Rebekah Hayes | author
@@ -64,10 +74,13 @@ Kate Lynn Lindsey | author
 Nora  L. M. Lindvall | author
 Mandy Lorenzen | author
 Hannah Lutzenberger | author
+Manuel Rüdisühli | author
 Alexandra Marley | author
 Tânia R. A. Martins | author
+Marvin Leonard Martiny | author
 Celia Mata German | author
 Suzanne van der Meer | author
+Jacob Menschel | author
 Jaime Montoya | author
 Michael Müller | author
 Saliha Muradoglu | author
@@ -76,9 +89,11 @@ David Nash | author
 Kelsey Neely | author
 Johanna Nickel | author
 Miina Norvik | author
+Olga Olina | author
 Bruno Olsson | author
 Cheryl Akinyi Oluoch | author
 David Osgarby | author
+Leah Pappas | author
 Jesse Peacock | author
 India O.C. Pearey | author
 Naomi Peck | author
@@ -100,6 +115,7 @@ Lars Schlabbach | author
 Frederick W. P. Schmidt | author
 Dineke Schokkin | author
 Jeff Siegel | author
+Jane Simpson | author
 Amalia Skilton | author
 Hilário de Sousa | author
 Kristin Sverredal | author
@@ -107,6 +123,7 @@ Daniel Valle | author
 Javier Vera | author
 Judith Voß | author
 Daniel Wikalier Smith | author
+Nicholas Williams | author
 Tim Witte | author
 Henry Wu | author
 Stephanie Yam | author
@@ -114,6 +131,7 @@ Jingting Ye 葉婧婷 | author
 Maisie Yong | author
 Tessa Yuditha | author
 Roberto Zariquiey | author
+Olena Shcherbakova | author
 Robert Forkel | author
 Nicholas Evans | author
 Stephen C. Levinson | author

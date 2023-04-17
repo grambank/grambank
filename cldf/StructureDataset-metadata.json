@@ -17,7 +17,7 @@
         {
             "rdf:about": "https://github.com/grambank/grambank",
             "rdf:type": "prov:Entity",
-            "dc:created": "v1.0",
+            "dc:created": "v1.0.1",
             "dc:title": "Repository"
         },
         {
@@ -35,7 +35,7 @@
         {
             "rdf:about": "https://github.com/glottobank/Grambank",
             "rdf:type": "prov:Entity",
-            "dc:created": "v1.0.2",
+            "dc:created": "v1.0.3",
             "dc:title": "Repository"
         }
     ],
@@ -173,7 +173,7 @@
         },
         {
             "dc:description": "Grambank is a collaborative effort. The people listed in this table contributed by coding languages or guiding the coding as feature patrons or by facilitating the project through funding, technical assitance, etc.",
-            "dc:extent": 116,
+            "dc:extent": 136,
             "tableSchema": {
                 "columns": [
                     {
