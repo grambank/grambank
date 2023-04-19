@@ -33,6 +33,7 @@ Giulia Barbos | author
 Anina Bolls | author
 Robert D. Borges | author
 Mitchell Browen | author
+Hoju Cha 차호주 | author
 Lennart Chevallier | author
 Swintha Danielsen | author
 Hugo de Vos | author
@@ -104,9 +105,11 @@ Mariana Poblete | author
 Daniel Prestipino | author
 Linda Raabe | author
 Amna Raja | author
+Tihomir Rangelov | author
 Janis Reimringer | author
 Sydney C. Rey | author
 Julia Rizaew | author
+Kristian Roncero Toledo | author
 Eloisa Ruppert | author
 Kim K. Salmon | author
 Jill Sammet | author
