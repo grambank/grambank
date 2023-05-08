@@ -342,6 +342,3 @@ class Dataset(BaseDataset):
             for row in contributors]
         self.dir.joinpath('CONTRIBUTORS.md').write_text(
             '# Contributors\n\nName | Role\n --- | --- \n{}\n'.format('\n'.join(contributors)))
-
-        #if not args.dev:
-        self.cldf_reader().validate(log=args.log)
