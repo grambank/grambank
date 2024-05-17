@@ -254,15 +254,16 @@ class Dataset(BaseDataset):
 
         # check for typos in coder abbreviations
         contributor_ids = {c['ID'] for c in contributor_table}
-        for value in value_table:  # pragma: nocover
-            unknown_coders = [
-                coder
-                for coder in value['Coders']
-                if coder not in contributor_ids]
-            if unknown_coders:
-                raise ValueError('ERROR: {}: unknown coders: {}'.format(
-                    value['Language_ID'],
-                    unknown_coders))
+        unknown_coders = [
+            (value['Language_ID'], value['Parameter_ID'], coder)
+            for value in value_table
+            for coder in value['Coders']
+            if coder not in contributor_ids]
+        if unknown_coders:
+            raise ValueError('ERROR: unknown coders:\n{}'.format(
+                '\n'.join(
+                    f'{lang_id}:{feat_id}: {coder}'
+                    for lang_id, feat_id, coder in unknown_coders)))
 
         print('computing newick trees')
 
