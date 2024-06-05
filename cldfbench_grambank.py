@@ -1,5 +1,5 @@
 import collections
-from itertools import islice
+from itertools import chain, islice
 import pathlib
 import re
 import shutil
@@ -7,9 +7,10 @@ import subprocess
 
 from clldutils.markup import iter_markdown_tables
 from cldfbench import Dataset as BaseDataset, CLDFSpec
+from csvw import dsv
 from pygrambank import Grambank
 from pygrambank.sheet import Sheet
-from pygrambank.util import iterunique
+from pygrambank.util import iterunique, adhoc_merge
 from pygrambank.contributors import PHOTO_URI, ROLES
 
 from pygrambank.cldf import GlottologGB, BibliographyMatcher
@@ -185,6 +186,15 @@ class Dataset(BaseDataset):
         print('selecting best sheets')
         sheets = list(iterunique(sheets, verbose=True))
 
+        # Add values from conflict sheets
+        conflict_sheets = (
+            (conflict.stem, list(dsv.reader(conflict, delimiter='\t', dicts=True, encoding='utf-8')))
+            for conflict in grambank.path('conflicts').glob('*.tsv'))
+        sheets.extend(
+            pair
+            for glottocode, conflict_rows in conflict_sheets
+            if (pair := adhoc_merge(grambank, glottocode, conflict_rows)))
+
         print('collecting data points in data sheets')
 
         sheets = [
@@ -254,15 +264,16 @@ class Dataset(BaseDataset):
 
         # check for typos in coder abbreviations
         contributor_ids = {c['ID'] for c in contributor_table}
-        for value in value_table:  # pragma: nocover
-            unknown_coders = [
-                coder
-                for coder in value['Coders']
-                if coder not in contributor_ids]
-            if unknown_coders:
-                raise ValueError('ERROR: {}: unknown coders: {}'.format(
-                    value['Language_ID'],
-                    unknown_coders))
+        unknown_coders = [
+            (value['Language_ID'], value['Parameter_ID'], coder)
+            for value in value_table
+            for coder in value['Coders']
+            if coder not in contributor_ids]
+        if unknown_coders:
+            raise ValueError('ERROR: unknown coders:\n{}'.format(
+                '\n'.join(
+                    f'{lang_id}:{feat_id}: {coder}'
+                    for lang_id, feat_id, coder in unknown_coders)))
 
         print('computing newick trees')
 
