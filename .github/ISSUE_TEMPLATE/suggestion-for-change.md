@@ -18,9 +18,6 @@ assignees: ''
 * What language or dialect would you like to suggest a change in coding for? Please give the Name and/or glottocode. (If more than 10 data-points, please just refer to the spreadsheet.)*
 
 
-* Are there particular languages or dialects of concern? Please give the name(s) and/or glottocode(s). (If more than 10 data-points, please just refer to the spreadsheet.)*
-
-
 * What is the reason behind this change?*
 
 
