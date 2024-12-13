@@ -48,7 +48,7 @@ GB273,clause,non-verbal predication
 GB275,clause,non-verbal predication
 GB276,clause,non-verbal predication
 GB266,clause,non-verbal predication
-GB146,nominal domain,TAME
+GB146,verbal domain,TAME
 GB020,nominal domain,deixis
 GB022,nominal domain,deixis
 GB021,nominal domain,deixis
@@ -149,7 +149,7 @@ GB204,nominal domain,quantification
 GB198,nominal domain,class
 GB115,verbal domain,valency
 GB114,verbal domain,valency
-GB327,nominal domain,clause order
+GB327,clause,clause order
 GB328,clause,clause order
 GB329,clause,clause order
 GB330,clause,clause order
