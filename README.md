@@ -29,7 +29,7 @@ This repo also contains a copy of the [grambank wiki][gbwiki] in
 `raw/grambank.wiki`.  This is implemented as a git subtree, which can be updated
 by running:
 
-    $ cldfbench gb.update_wiki cldfbench_grambank.py'
+    $ cldfbench gb.update_wiki cldfbench_grambank.py
 
 Note that this will create a new branch called `update-wiki` which can be used
 for PRs (this is done because `git-subtree` automatically adds new git commits
