@@ -23,6 +23,20 @@ Available online at https://grambank.clld.org
 For examples on how to use this datasets, refer to the
 [`recipes` folder in this repository](./recipes/).
 
+## Note on the wiki
+
+This repo also contains a copy of the [grambank wiki][gbwiki] in
+`raw/grambank.wiki`.  This is implemented as a git subtree, which can be updated
+by running:
+
+    $ cldfbench gb.update_wiki cldfbench_grambank.py'
+
+Note that this will create a new branch called `update-wiki` which can be used
+for PRs (this is done because `git-subtree` automatically adds new git commits
+to the repo and I don't want to accidentally create conflicts with `master`…).
+
+[gbwiki]: https://github.com/grambank/grambank/wiki
+
 ## CLDF Datasets
 
 The following CLDF datasets are available in [cldf](cldf):

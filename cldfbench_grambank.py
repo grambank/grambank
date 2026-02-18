@@ -16,6 +16,21 @@ from pygrambank.contributors import PHOTO_URI, ROLES
 from pygrambank.cldf import GlottologGB, BibliographyMatcher
 from pygrambank.bib import lgcodestr
 
+WIKI_NOTE = """
+## Note on the wiki
+
+This repo also contains a copy of the [grambank wiki][gbwiki] in
+`raw/grambank.wiki`.  This is implemented as a git subtree, which can be updated
+by running:
+
+    $ cldfbench gb.update_wiki cldfbench_grambank.py'
+
+Note that this will create a new branch called `update-wiki` which can be used
+for PRs (this is done because `git-subtree` automatically adds new git commits
+to the repo and I don't want to accidentally create conflicts with `master`…).
+
+[gbwiki]: https://github.com/grambank/grambank/wiki"""
+
 
 # FIXME: These should be fixed in the data!
 INVALID = ['9', '.?']
@@ -141,7 +156,8 @@ class Dataset(BaseDataset):
             '\n![Distribution of classifier languages](map.jpg)',
             old_desc,
             'For examples on how to use this datasets, refer to the',
-            '[`recipes` folder in this repository](./recipes/).']
+            '[`recipes` folder in this repository](./recipes/).',
+            WIKI_NOTE]
         return '{}{}{}{}'.format(before, header, '\n'.join(desc), after)
 
     def cmd_makecldf(self, args):
