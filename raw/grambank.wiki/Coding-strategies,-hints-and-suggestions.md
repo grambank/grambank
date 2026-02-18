@@ -1,0 +1,17 @@
+**Before coding**
+
+* It is always a good idea to check which **sources** are available for your language. Depending on the language, there may be a fairly comprehensive grammar available that allows you to code the whole questionnaire, or there may only be sketch grammars or minimal materials. It is also possible that the language has been documented by researchers working in different traditions. **You can decide to code the language based on one comprehensive grammar**, or, if you are not certain about the quality or comprehensiveness of your sources, **you can choose to pick (for example) two sources that deal with quite different aspects of grammar, or are written in quite different traditions**. This gives you a better, more reliable picture of the language, and allows you to cover a broad range of topics in the questionnaire.
+
+* Some coders have noted that they enjoy **getting a picture of the context in which a language is spoken before coding it**. Sections on ethnography, anthropology etc. are often located in the beginning parts of large grammars, or an introductory chapter on the people speaking the language may be available elsewhere. Alternatively, **it may be motivating to read a chapter or article about what has interested other researchers about this language**. This may take some extra time, but it may also kindle your interest in the language.
+
+**Grammar reading and coding**
+
+* Some coders choose to **skim-read grammars from cover to cover, and when they reach some relevant passages read them more carefully**. In some cases, especially in difficult to navigate descriptions, this is more time-efficient than coding on a feature by feature basis. This also avoids some of the problems that may arise when authors use unfamiliar terminology, or when they analyze things differently from how we would analyze them in Grambank. Reading grammars from cover to cover also means that you have a better sense of whether a topic has not been treated because of lack of research (which would result in a ?) or just because it does not exist in the language (= 0).
+
+* Perhaps you feel more comfortable coding some parts of grammars and less comfortable with others. Sections on numerals, counting systems, demonstratives, pronouns, may be more straightforward and less daunting than sections on tense, aspect and modality, or complex constructions. **Starting with the easier parts may help you to get a short overview of the grammar and get you prepared for the more difficult parts.**
+
+* If you chose to code from **multiple sources**, you could **code them independently**, for example **in different columns in a LibreOffice sheet**, and afterwards compare them. If there are **contradictions**, they may or may not be resolvable. Sometimes they indicate dialectal variation, sometimes they are caused by wrong analyses in one of the grammars. In other cases they are caused by two sources describing two different languages instead of the same one. If a contradiction is not resolvable, the question should be answered with ?, and a comment should be provided in the appropriate section.
+
+**After coding**
+
+* After you have coded new languages you may realize that you put too many 0's in a previous language because you lacked evidence, or that you misinterpreted a feature before. **It may be interesting to regularly recheck earlier coded sheets.** You could, for example, recheck one older sheet every two new sheets you code.
