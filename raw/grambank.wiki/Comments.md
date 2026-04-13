@@ -1,0 +1,1 @@
+Go [here](https://github.com/grambank/grambank/wiki/Guidelines-for-writing-comments).

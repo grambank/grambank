@@ -1,0 +1,7 @@
+Most features of Grambank are concerned with productive phenomena. A productive rule or pattern is one that can be applied to new words and that is not limited to a small, lexically determined set of words. For example, we want to exclude affixes that only occur in a few fossilized constructions. 
+
+Since we usually cannot test whether a rule applies to newly invented words, we have to rely on (1) what authors say about the rule, and (2) the perceived frequency of an item to determine its productivity. If an author says that an affix is no longer productive, then it should not be considered for our purposes. If an author says that in a lexicon of 1,000 nouns, the plural marker is applied to only 10 nouns, then we can assume that the plural marker is not productive in this language. 
+
+Sometimes, authors do not specify whether a process is productive or not. They may only give one or a few examples, or no examples at all. In this case, we assume that the process is productive unless we have evidence of the contrary.
+
+Sometimes, productivity is not relevant to a feature. For example, if there are only three auxiliaries in the language and all of them are reduplicated to mark future tense, then we do consider this a relevant morphological rule for Grambank. However, it is logically impossible that this rule applies to a new auxiliary, since the three auxiliaries form a closed class.
